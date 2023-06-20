@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "1043")(type "KiCad")(uri "${KIPRJMOD}/Footprints/1043 (NOT OPEN SOURCE)")(options "")(descr ""))
+  (lib (name "1049")(type "KiCad")(uri "${KIPRJMOD}/Footprints/1049 (NOT OPEN SOURCE)/KiCad")(options "")(descr ""))
+)

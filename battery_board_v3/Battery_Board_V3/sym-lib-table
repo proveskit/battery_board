@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "W5500")(type "KiCad")(uri "${KIPRJMOD}/Footprints/W5500/KiCADv6/2023-06-22_19-54-15.kicad_sym")(options "")(descr ""))
+  (lib (name "74AHC1G125")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SN74AHC1G125DBVR/KiCADv6/2023-06-22_20-13-36.kicad_sym")(options "")(descr ""))
+)

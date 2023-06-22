@@ -1,8 +1,5 @@
 # battery_board
 The battery and power management board for the PROVES Kit.
-
-# Features
-
 # Flight Heritage
 | Version | Flights | Status |
 | ----------- | ----------- | ----------- |
@@ -10,8 +7,7 @@ The battery and power management board for the PROVES Kit.
 | V1 | Unflown | Not Supported |
 | V2 | Pleiades - Yearling, Pleaides - Squared | Supported |
 | V3 | Unflown | In Development |
-# battery_board
-The battery and power management board for the PROVES Kit.
+# Features
 ## battery_board_v2
 The battery board flown on the Pleiades-Yearling and Pleiades-Squared missions. The board serves as an interface with the rest of the satellite. A 12 position picolock is utilized to interface between the Flight Controller and the Battery Board. The board interfaces with 5 solar faces of the satellite using 5 position picolocks. The other 2 position picolocks are used for interfacing with the inhibit scheme, battery heater, burn wire, and direct charging port. The hardware utilized on the module is the following:
 - LT3652 MPPT Solar Charger is utilized to charge the batteries up from the solar faces. The Solar Charging circuitry should only allow higher potentials to be fed to the battery, and allow no reverse current into the charging circuitry.

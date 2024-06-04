@@ -1,0 +1,38 @@
+
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-04-16_150216.zip
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-03_121207.zip
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-07_120042.zip
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-22_192003.zip
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-23_175310.zip
+Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-24_150831.zip
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+.DS_Store

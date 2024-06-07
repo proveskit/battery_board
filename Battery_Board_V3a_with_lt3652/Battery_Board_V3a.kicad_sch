@@ -27683,7 +27683,7 @@
 			)
 		)
 	)
-	(global_label "ENABLE_BURN"
+	(global_label "ENAB_BURN"
 		(shape output)
 		(at 538.48 278.13 0)
 		(fields_autoplaced yes)
@@ -27695,7 +27695,7 @@
 		)
 		(uuid "dca95d2d-db33-4b26-9437-ed35603389db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 554.0769 278.0506 0)
+			(at 552.4719 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

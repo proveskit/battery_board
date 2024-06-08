@@ -26451,6 +26451,28 @@
 			)
 		)
 	)
+	(global_label "D+"
+		(shape output)
+		(at 137.16 227.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47a391b7-96a8-49f7-822b-7589738f2166")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 221.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BURN"
 		(shape input)
 		(at 168.91 375.92 0)
@@ -27540,6 +27562,28 @@
 			)
 		)
 	)
+	(global_label "D-"
+		(shape output)
+		(at 139.7 227.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "924cb053-9ba1-4ce1-a1bf-c6a0b62a675b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 221.5024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D0"
 		(shape input)
 		(at 173.99 257.81 90)
@@ -28192,28 +28236,6 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
-		(shape output)
-		(at 139.7 227.33 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7905aac-6068-4c32-ac1f-fe4bd5943bfb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 216.7248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CHRG'"
 		(shape input)
 		(at 530.86 326.39 0)
@@ -28533,28 +28555,6 @@
 		(uuid "dca95d2d-db33-4b26-9437-ed35603389db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 552.4719 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape output)
-		(at 137.16 227.33 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de4a0ccb-1a80-46f2-92b1-004522116b0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 216.7248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43525,7 +43525,7 @@
 				)
 			)
 		)
-		(property "Value" "FC_FACE"
+		(property "Value" "Z+_Cap_Connector"
 			(at 138.43 238.76 90)
 			(effects
 				(font

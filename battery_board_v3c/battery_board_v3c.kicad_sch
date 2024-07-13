@@ -10965,6 +10965,265 @@
 				)
 			)
 		)
+		(symbol "RV-3028-C7:RV-3028-C7_32.768kHz_1ppm_TA_QC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RV-3028-C7_32.768kHz_1ppm_TA_QC"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RV3028C732768kHz1ppmTAQC"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/530/RV_3028_C7-1524919.pdf"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Real Time Clock 32.768kHz I2C Time Acc. 1ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "428-203591-MG01"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/RV-3028-C7-32.768kHz-1ppm-TA-QC?qs=u16ybLDytRaU7ZFJl2AxfQ%3D%3D"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Micro Crystal AG"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RV-3028-C7 32.768kHz 1ppm TA QC"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "RV-3028-C7_32.768kHz_1ppm_TA_QC_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CLKOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "VBACKUP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "EVI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Reference_Voltage:TL431DBZ"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -16116,7 +16375,7 @@
 		(uuid "04637e45-b220-494f-8523-9717d96f89dd")
 	)
 	(junction
-		(at 52.07 33.02)
+		(at 52.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04b5f972-cde2-46fd-9d64-4e645f62f57f")
@@ -16128,7 +16387,7 @@
 		(uuid "064000ad-0170-4134-9e5f-6c1fdd1faf7e")
 	)
 	(junction
-		(at 127 77.47)
+		(at 127 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0810f971-ec2d-4067-b317-a61442e421fd")
@@ -16188,7 +16447,7 @@
 		(uuid "123d9b57-24d3-4c51-8228-80a44dc1c2ed")
 	)
 	(junction
-		(at 140.97 64.77)
+		(at 140.97 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1252db1a-1bf9-4eec-855e-47b808f9def8")
@@ -16224,7 +16483,7 @@
 		(uuid "153801e5-a7e4-45ea-8b65-71eaabe2ce35")
 	)
 	(junction
-		(at 143.51 33.02)
+		(at 143.51 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15835611-d718-441f-8e00-76db5d4aa943")
@@ -16236,7 +16495,7 @@
 		(uuid "1870048d-d1a9-4116-b4ce-be0ebb8d5ca3")
 	)
 	(junction
-		(at 52.07 43.18)
+		(at 52.07 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1914fc4e-5dba-4eb9-8bcf-960e1e447772")
@@ -16386,7 +16645,7 @@
 		(uuid "3ca8912c-fe17-4d13-b929-1102a8121be4")
 	)
 	(junction
-		(at 59.69 59.69)
+		(at 59.69 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2c3c67-886d-4e38-af14-c44819ef4b72")
@@ -16446,7 +16705,7 @@
 		(uuid "4fe8a117-e3ff-48f7-978e-94cceafa3595")
 	)
 	(junction
-		(at 52.07 62.23)
+		(at 52.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5267b00a-617d-433a-8129-ecb69dfaa042")
@@ -16494,7 +16753,7 @@
 		(uuid "5b17ed13-2c88-47a7-bc73-20087cea8b4d")
 	)
 	(junction
-		(at 81.28 141.478)
+		(at 81.153 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d53b958-e933-4fb1-ace6-16324a3ffcca")
@@ -16530,7 +16789,7 @@
 		(uuid "61ad317f-83bf-4538-8a1e-4131e323388e")
 	)
 	(junction
-		(at 83.566 144.018)
+		(at 83.439 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61fb5837-78e3-43c7-b020-0eabaef336a9")
@@ -16548,7 +16807,7 @@
 		(uuid "661828b4-5f78-491b-98c8-d55da7e3c839")
 	)
 	(junction
-		(at 40.64 43.18)
+		(at 40.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ff6558-0d6e-4eba-a630-3eda6be136d7")
@@ -16614,7 +16873,7 @@
 		(uuid "73769ca1-71e8-4c5f-a966-b45b4cac7b04")
 	)
 	(junction
-		(at 109.22 77.47)
+		(at 109.22 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f270f8-2a1f-43ff-8b4c-1b9978fd55ed")
@@ -16644,7 +16903,7 @@
 		(uuid "79b685b3-5149-4229-8fca-610f0583335a")
 	)
 	(junction
-		(at 106.68 62.23)
+		(at 106.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a10dbc0-f6c3-4dfb-92c1-70561ab42883")
@@ -16680,7 +16939,7 @@
 		(uuid "7ffbdda3-2b8e-4b87-b135-97ce9c60fd2e")
 	)
 	(junction
-		(at 143.51 64.77)
+		(at 143.51 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d5b387-b613-4f6c-b4c7-332aaba60515")
@@ -16770,7 +17029,7 @@
 		(uuid "960cd906-4896-45c7-9bb1-ce38f6a68ad0")
 	)
 	(junction
-		(at 83.566 141.478)
+		(at 83.439 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c8f1ec-c7a1-45d0-9671-548ad5913ca6")
@@ -16914,7 +17173,7 @@
 		(uuid "c2ceb225-fc69-4a7e-9b51-db929597769d")
 	)
 	(junction
-		(at 121.92 64.77)
+		(at 121.92 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c318c8af-7129-4b66-9793-71773af2cf76")
@@ -16968,7 +17227,7 @@
 		(uuid "cf77cb17-81d9-4006-9af0-9c794022afb0")
 	)
 	(junction
-		(at 109.22 69.85)
+		(at 109.22 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d068658a-ffd7-4b90-86e9-c014f98540dc")
@@ -16998,7 +17257,7 @@
 		(uuid "d6727495-b676-4ae4-bd0e-7619de748ef7")
 	)
 	(junction
-		(at 109.22 91.44)
+		(at 109.22 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d751acd2-e8a5-4135-a187-8494ee8418b7")
@@ -17076,7 +17335,7 @@
 		(uuid "e1ff2704-a9fd-49d4-bc91-b33e25a788a9")
 	)
 	(junction
-		(at 113.03 46.99)
+		(at 113.03 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e364b2ea-8ede-4544-8e25-3c7f44575295")
@@ -17112,7 +17371,7 @@
 		(uuid "ed66be68-fdd4-48b5-a1b6-fc75ff6676d6")
 	)
 	(junction
-		(at 113.03 59.69)
+		(at 113.03 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf3b481-5702-42c1-aa27-6bafe82074d4")
@@ -17124,7 +17383,7 @@
 		(uuid "f04dc9cf-9b2d-4987-9a27-5c1e1a15d838")
 	)
 	(junction
-		(at 83.566 146.558)
+		(at 83.439 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1c0e616-20da-427a-9893-628109028a8e")
@@ -17220,11 +17479,11 @@
 		(uuid "ffa2aa10-e21f-4ba7-9e1a-1c1bb427e777")
 	)
 	(no_connect
-		(at 68.58 69.85)
+		(at 68.58 73.66)
 		(uuid "106e9118-b3b2-4f74-a4f4-dd3eba3d1776")
 	)
 	(no_connect
-		(at 104.14 69.85)
+		(at 104.14 73.66)
 		(uuid "16cf8c5f-e18e-455f-8cce-35712c6f7153")
 	)
 	(no_connect
@@ -17539,7 +17798,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 106.68 91.44)
+			(xy 109.22 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -17669,7 +17928,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 106.68 62.23)
+			(xy 119.38 66.04) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -17709,13 +17968,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.566 144.018) (xy 83.566 141.478)
+			(xy 83.439 139.7) (xy 83.439 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d784ac9-3813-4c04-8b89-0f68cc21d2ec")
+	)
+	(polyline
+		(pts
+			(xy 12.7 160.02) (xy 118.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0deb3633-469a-489a-8823-fead11385211")
 	)
 	(polyline
 		(pts
@@ -17849,7 +18118,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 104.14 72.39)
+			(xy 106.68 76.2) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -17879,7 +18148,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 119.38 69.85)
+			(xy 119.38 66.04) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -17949,7 +18218,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 69.85) (xy 111.76 69.85)
+			(xy 109.22 73.66) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -17999,7 +18268,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.037 132.461) (xy 81.28 132.461)
+			(xy 41.91 128.143) (xy 81.153 128.143)
 		)
 		(stroke
 			(width 0)
@@ -18169,7 +18438,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 127 77.47)
+			(xy 109.22 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -18239,7 +18508,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.137 146.558) (xy 83.566 146.558)
+			(xy 80.01 142.24) (xy 83.439 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18276,6 +18545,16 @@
 			(type default)
 		)
 		(uuid "203db81f-0823-4427-8307-5a50e7e83fb9")
+	)
+	(wire
+		(pts
+			(xy 82.55 190.5) (xy 85.09 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21454fba-b00c-40cc-bed8-faa52e28dcb9")
 	)
 	(wire
 		(pts
@@ -18419,7 +18698,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 67.31) (xy 109.22 69.85)
+			(xy 109.22 71.12) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -18609,7 +18888,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.137 144.018) (xy 83.566 144.018)
+			(xy 80.01 139.7) (xy 83.439 139.7)
 		)
 		(stroke
 			(width 0)
@@ -18669,7 +18948,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 127 87.63)
+			(xy 127 88.9) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -18989,7 +19268,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 66.04 67.31)
+			(xy 66.04 60.96) (xy 66.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -18999,7 +19278,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 114.3 59.69)
+			(xy 113.03 63.5) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -19049,7 +19328,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 27.94) (xy 143.51 33.02)
+			(xy 143.51 31.75) (xy 143.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -19429,7 +19708,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 109.22 78.74)
+			(xy 109.22 81.28) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -19459,7 +19738,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.566 144.018) (xy 83.566 146.558)
+			(xy 83.439 139.7) (xy 83.439 142.24)
 		)
 		(stroke
 			(width 0)
@@ -19499,7 +19778,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 123.19 91.44)
+			(xy 119.38 95.25) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -19619,7 +19898,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 141.478) (xy 80.137 141.478)
+			(xy 81.153 137.16) (xy 80.01 137.16)
 		)
 		(stroke
 			(width 0)
@@ -19709,7 +19988,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 68.58 62.23)
+			(xy 52.07 66.04) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -19849,7 +20128,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 73.66) (xy 52.07 77.47)
+			(xy 52.07 77.47) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -19869,7 +20148,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 59.69) (xy 113.03 59.69)
+			(xy 104.14 63.5) (xy 113.03 63.5)
 		)
 		(stroke
 			(width 0)
@@ -19959,7 +20238,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 52.07 43.18)
+			(xy 40.64 46.99) (xy 52.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -20129,7 +20408,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 82.55 33.02)
+			(xy 52.07 36.83) (xy 82.55 36.83)
 		)
 		(stroke
 			(width 0)
@@ -20289,7 +20568,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 33.02) (xy 52.07 34.29)
+			(xy 52.07 36.83) (xy 52.07 38.1)
 		)
 		(stroke
 			(width 0)
@@ -20399,7 +20678,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.737 146.558) (xy 42.037 146.558)
+			(xy 54.61 142.24) (xy 41.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -20729,7 +21008,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 30.48) (xy 52.07 33.02)
+			(xy 52.07 34.29) (xy 52.07 36.83)
 		)
 		(stroke
 			(width 0)
@@ -20889,7 +21168,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 59.69 59.69)
+			(xy 59.69 46.99) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -20919,7 +21198,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 46.99) (xy 137.16 49.53)
+			(xy 137.16 50.8) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -20929,7 +21208,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 72.39) (xy 64.77 77.47)
+			(xy 64.77 76.2) (xy 64.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -20969,7 +21248,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 62.23) (xy 104.14 62.23)
+			(xy 106.68 66.04) (xy 104.14 66.04)
 		)
 		(stroke
 			(width 0)
@@ -21239,7 +21518,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 109.22 91.44)
+			(xy 109.22 92.71) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -21529,7 +21808,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 109.22 67.31)
+			(xy 104.14 71.12) (xy 109.22 71.12)
 		)
 		(stroke
 			(width 0)
@@ -21749,7 +22028,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 52.07 43.18)
+			(xy 52.07 45.72) (xy 52.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -21759,7 +22038,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 143.51 64.77)
+			(xy 140.97 68.58) (xy 143.51 68.58)
 		)
 		(stroke
 			(width 0)
@@ -21859,7 +22138,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 143.51 64.77)
+			(xy 143.51 46.99) (xy 143.51 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22049,7 +22328,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 33.02) (xy 143.51 35.56)
+			(xy 143.51 36.83) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -22099,7 +22378,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 121.92 64.77)
+			(xy 121.92 63.5) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22109,7 +22388,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 64.77 72.39)
+			(xy 68.58 76.2) (xy 64.77 76.2)
 		)
 		(stroke
 			(width 0)
@@ -22119,7 +22398,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 64.77) (xy 148.59 64.77)
+			(xy 143.51 68.58) (xy 148.59 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22169,7 +22448,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 50.8) (xy 52.07 52.07)
+			(xy 52.07 54.61) (xy 52.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -22209,7 +22488,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 140.97 77.47)
+			(xy 127 81.28) (xy 140.97 81.28)
 		)
 		(stroke
 			(width 0)
@@ -22259,7 +22538,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.566 141.478) (xy 81.28 141.478)
+			(xy 83.439 137.16) (xy 81.153 137.16)
 		)
 		(stroke
 			(width 0)
@@ -22289,7 +22568,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.566 146.558) (xy 83.566 149.098)
+			(xy 83.439 142.24) (xy 83.439 144.78)
 		)
 		(stroke
 			(width 0)
@@ -22299,7 +22578,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 64.77) (xy 68.58 64.77)
+			(xy 59.69 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22349,7 +22628,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 69.85) (xy 109.22 77.47)
+			(xy 109.22 73.66) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -22379,7 +22658,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 106.68 62.23)
+			(xy 106.68 59.69) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -22429,7 +22708,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 43.18) (xy 30.48 43.18)
+			(xy 31.75 46.99) (xy 30.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -22619,7 +22898,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 132.08 64.77)
+			(xy 140.97 68.58) (xy 132.08 68.58)
 		)
 		(stroke
 			(width 0)
@@ -22769,7 +23048,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.037 142.748) (xy 42.037 146.558)
+			(xy 41.91 138.43) (xy 41.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -22819,7 +23098,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 106.68 72.39)
+			(xy 106.68 95.25) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -22879,7 +23158,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 44.45) (xy 40.64 43.18)
+			(xy 40.64 48.26) (xy 40.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -23019,7 +23298,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 106.68 46.99)
+			(xy 113.03 50.8) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -23029,7 +23308,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.037 135.128) (xy 42.037 132.461)
+			(xy 41.91 130.81) (xy 41.91 128.143)
 		)
 		(stroke
 			(width 0)
@@ -23069,7 +23348,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 59.69 43.18)
+			(xy 52.07 46.99) (xy 59.69 46.99)
 		)
 		(stroke
 			(width 0)
@@ -23109,7 +23388,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 46.99) (xy 106.68 48.26)
+			(xy 106.68 50.8) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -23409,7 +23688,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 132.461) (xy 81.28 141.478)
+			(xy 81.153 128.143) (xy 81.153 137.16)
 		)
 		(stroke
 			(width 0)
@@ -23559,7 +23838,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.137 149.098) (xy 83.566 149.098)
+			(xy 80.01 144.78) (xy 83.439 144.78)
 		)
 		(stroke
 			(width 0)
@@ -23609,7 +23888,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 64.77) (xy 121.92 64.77)
+			(xy 104.14 68.58) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -23629,7 +23908,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 68.58 59.69)
+			(xy 59.69 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -23689,7 +23968,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 113.03 46.99)
+			(xy 113.03 63.5) (xy 113.03 50.8)
 		)
 		(stroke
 			(width 0)
@@ -23779,7 +24058,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 67.31) (xy 66.04 67.31)
+			(xy 68.58 71.12) (xy 66.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -23879,7 +24158,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 43.18) (xy 40.64 43.18)
+			(xy 39.37 46.99) (xy 40.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -24039,7 +24318,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 143.51 33.02)
+			(xy 85.09 190.5) (xy 85.09 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c1a0bf-6e6a-408c-b7f9-f917cb355d6d")
+	)
+	(wire
+		(pts
+			(xy 90.17 36.83) (xy 143.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -24129,7 +24418,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 137.16 46.99)
+			(xy 129.54 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -24159,7 +24448,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 46.99) (xy 121.92 46.99)
+			(xy 113.03 50.8) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -24239,7 +24528,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 59.69 64.77)
+			(xy 59.69 63.5) (xy 59.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -24549,7 +24838,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 63.5)
+			(xy 52.07 66.04) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -24669,7 +24958,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 77.47) (xy 140.97 64.77)
+			(xy 140.97 81.28) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -24679,7 +24968,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.44) (xy 123.19 93.98)
+			(xy 123.19 95.25) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -24885,7 +25174,7 @@
 	)
 	(text "VSOLAR 9V to 40V"
 		(exclude_from_sim no)
-		(at 72.39 20.32 0)
+		(at 72.39 24.13 0)
 		(effects
 			(font
 				(size 2.159 2.159)
@@ -25103,14 +25392,14 @@
 		)
 		(uuid "9ed1a853-67f8-4a1e-a96d-8616a5c4c92c")
 	)
-	(text "Face Power and Sensor Multiplexer"
+	(text "Internal Temperature Sensor"
 		(exclude_from_sim no)
-		(at 32.512 118.364 0)
+		(at 67.056 117.856 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "b9456abd-c95e-4e82-8468-1a171f6e1b5e")
 	)
@@ -25182,7 +25471,7 @@
 	)
 	(text "Schottky Diode\n"
 		(exclude_from_sim no)
-		(at 132.08 52.07 0)
+		(at 132.08 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25201,6 +25490,17 @@
 			(justify left bottom)
 		)
 		(uuid "e6bf5061-6f31-40ab-bffd-f0a98a35a844")
+	)
+	(text "Real Time Clock"
+		(exclude_from_sim no)
+		(at 64.516 165.354 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify bottom)
+		)
+		(uuid "e7ecdaf9-85e4-46a0-839c-a93638e0f1c1")
 	)
 	(text "VBATT 4.5 to 18V"
 		(exclude_from_sim no)
@@ -25622,7 +25922,7 @@
 	)
 	(global_label "CHRG'"
 		(shape input)
-		(at 66.04 67.31 180)
+		(at 66.04 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25632,7 +25932,7 @@
 		)
 		(uuid "06fc1135-890b-4594-90b7-2112f3d46588")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.8817 67.2306 0)
+			(at 57.8817 71.0406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26428,7 +26728,7 @@
 	)
 	(global_label "VBatt"
 		(shape bidirectional)
-		(at 143.51 27.94 90)
+		(at 143.51 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26438,7 +26738,7 @@
 		)
 		(uuid "4198a6ec-9dae-4c25-b4c3-91c476cbd73e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4306 20.5679 90)
+			(at 143.4306 24.3779 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26795,6 +27095,28 @@
 			)
 		)
 	)
+	(global_label "SCL0"
+		(shape bidirectional)
+		(at 46.99 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5aacf36e-41b8-41f3-ad14-911c2aeeb175")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.8598 187.8806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBBOOT"
 		(shape output)
 		(at 147.32 227.33 90)
@@ -26928,7 +27250,7 @@
 	)
 	(global_label "SCL0"
 		(shape bidirectional)
-		(at 54.737 144.018 180)
+		(at 54.61 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26938,7 +27260,7 @@
 		)
 		(uuid "63c01a01-128f-493d-95c0-02f13fe0fb73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6068 143.9386 0)
+			(at 47.4798 139.6206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26950,7 +27272,7 @@
 	)
 	(global_label "VBATT_SENSE"
 		(shape bidirectional)
-		(at 148.59 64.77 0)
+		(at 148.59 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26960,7 +27282,7 @@
 		)
 		(uuid "650511e8-3111-4962-9c67-db536ce62ff3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0046 64.77 0)
+			(at 165.0046 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27972,6 +28294,28 @@
 			)
 		)
 	)
+	(global_label "SDA0"
+		(shape input)
+		(at 46.99 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a90b7026-f999-45cf-8668-e12dbcc78155")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.7993 190.4206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 199.9488 289.179 180)
@@ -28388,7 +28732,7 @@
 	)
 	(global_label "Dir_Chrg_In"
 		(shape input)
-		(at 52.07 30.48 90)
+		(at 52.07 34.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28398,7 +28742,7 @@
 		)
 		(uuid "ced47990-7e3a-49fc-ab95-e581fce1bea3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 16.7906 90)
+			(at 52.07 20.6006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28431,7 +28775,7 @@
 	)
 	(global_label "SDA0"
 		(shape input)
-		(at 54.737 141.478 180)
+		(at 54.61 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28441,7 +28785,7 @@
 		)
 		(uuid "d08554c1-7b41-48ab-b2f7-44ff0347a254")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.5463 141.3986 0)
+			(at 47.4193 137.0806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28475,7 +28819,7 @@
 	)
 	(global_label "VSOLAR_I"
 		(shape bidirectional)
-		(at 30.48 43.18 180)
+		(at 30.48 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28485,7 +28829,7 @@
 		)
 		(uuid "d28a399c-f368-4cca-ae82-b69f44d0061b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.079 43.0689 0)
+			(at 15.079 46.8789 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -29116,7 +29460,7 @@
 			(uuid "4f8c3e19-9cc2-4bae-80e9-8568f92753e5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR047")
 					(unit 1)
@@ -29186,7 +29530,7 @@
 			(uuid "be4e61ee-f28c-48c5-9f24-611f62d16eff")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "JP2")
 					(unit 1)
@@ -29309,7 +29653,7 @@
 			(uuid "4e652568-df92-4684-96bc-004a006a7949")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q5")
 					(unit 1)
@@ -29376,7 +29720,7 @@
 			(uuid "9dbe4204-ef35-4f0a-b8ca-63438339e045")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C25")
 					(unit 1)
@@ -29508,7 +29852,7 @@
 			(uuid "85c85198-1b71-4f78-81cd-39d64736b20a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J19")
 					(unit 1)
@@ -29581,7 +29925,7 @@
 			(uuid "1860fc1e-bd62-480d-9593-e068355c5ca1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C33")
 					(unit 1)
@@ -29647,7 +29991,7 @@
 			(uuid "01c9bf44-a853-431b-be78-3abb09df1d68")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR097")
 					(unit 1)
@@ -29714,7 +30058,7 @@
 			(uuid "6d5e3070-9bba-4bf6-b9f0-2cd6d769e4ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C28")
 					(unit 1)
@@ -29781,7 +30125,7 @@
 			(uuid "d153283b-c83d-4c76-b60e-4f2f8882b912")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D2")
 					(unit 1)
@@ -29847,7 +30191,7 @@
 			(uuid "5216bc5a-80d6-45d1-abc5-05dab9ca9a03")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U05")
 					(unit 1)
@@ -29922,7 +30266,7 @@
 			(uuid "2423730b-3e42-46c4-81ed-994170a715e1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U10")
 					(unit 1)
@@ -29994,7 +30338,7 @@
 			(uuid "16c9d2af-ad19-4239-b074-82b0e5aee4c9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR094")
 					(unit 1)
@@ -30063,7 +30407,7 @@
 			(uuid "45ef52bd-15e8-4901-88bd-3fe360fae9c4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J6")
 					(unit 1)
@@ -30133,7 +30477,7 @@
 			(uuid "c0e4280a-8c8d-4a53-99b5-c397ad16d164")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R7")
 					(unit 1)
@@ -30228,7 +30572,7 @@
 			(uuid "c951bca8-bc23-49cf-9530-1984d1084784")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "K1")
 					(unit 1)
@@ -30294,7 +30638,7 @@
 			(uuid "19abbc5d-5167-4ab7-8dac-a9dbde9850df")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U04")
 					(unit 1)
@@ -30426,7 +30770,7 @@
 			(uuid "8c1898bc-70a0-4500-94d7-5ce8b98b32c4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U1")
 					(unit 1)
@@ -30495,7 +30839,7 @@
 			(uuid "b99ce190-d9ed-401a-b7cf-d5e6f7521e20")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R35")
 					(unit 1)
@@ -30570,7 +30914,7 @@
 			(uuid "cc16fe5f-c064-4ff8-af14-02c73ccb2f90")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J8")
 					(unit 1)
@@ -30637,7 +30981,7 @@
 			(uuid "5afdfa29-0c6e-43e5-80f0-ec0d10e3b048")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C31")
 					(unit 1)
@@ -30704,7 +31048,7 @@
 			(uuid "5fc26c31-5e30-442d-94d1-d4f7c341655b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C26")
 					(unit 1)
@@ -30773,7 +31117,7 @@
 			(uuid "c0f03cde-cca1-4b84-b5e9-f3e117550872")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R24")
 					(unit 1)
@@ -30842,7 +31186,7 @@
 			(uuid "9638009a-fec5-49de-b641-8675ac059c8d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R50")
 					(unit 1)
@@ -30930,7 +31274,7 @@
 			(uuid "c938394b-7fc6-4398-8901-c86b3bc17011")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R48")
 					(unit 1)
@@ -30996,7 +31340,7 @@
 			(uuid "da4c41af-5675-46a7-aad7-838cb979ec67")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V010")
 					(unit 1)
@@ -31071,7 +31415,7 @@
 			(uuid "2ca83b7a-20e0-47d0-aca7-82e3b2a54dcb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C50")
 					(unit 1)
@@ -31137,7 +31481,7 @@
 			(uuid "25953a6c-7b8b-4abb-8f7f-f89754438e7e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$02")
 					(unit 1)
@@ -31206,7 +31550,7 @@
 			(uuid "051d7583-0f0b-470b-9801-4b468c22c581")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R42")
 					(unit 1)
@@ -31222,7 +31566,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 77.47 0)
+		(at 64.77 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31231,7 +31575,7 @@
 		(fields_autoplaced yes)
 		(uuid "1830aa93-5482-45cd-839f-9f15d6d41022")
 		(property "Reference" "#PWR075"
-			(at 64.77 83.82 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31240,7 +31584,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 82.55 0)
+			(at 64.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31248,7 +31592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 77.47 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31257,7 +31601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 77.47 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31266,7 +31610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 77.47 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31278,7 +31622,7 @@
 			(uuid "549b0c9c-6aab-4f2f-8f18-2a0d73bdf2ae")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR075")
 					(unit 1)
@@ -31344,7 +31688,7 @@
 			(uuid "033bdfac-e632-420a-a534-e01f341ffdc0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR056")
 					(unit 1)
@@ -31414,7 +31758,7 @@
 			(uuid "05f50494-6bec-4c16-823f-9012d607e4bf")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R26")
 					(unit 1)
@@ -31480,7 +31824,7 @@
 			(uuid "f4c26eff-5ee5-4a21-acbd-6c18eb0eec25")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR055")
 					(unit 1)
@@ -31561,7 +31905,7 @@
 			(uuid "8f78e6a6-6dfa-46e3-a625-04b6ccae274d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J25")
 					(unit 1)
@@ -31570,6 +31914,144 @@
 			(project "flight_computer_dev_board_rfm98pw"
 				(path "/c64c0d72-a9f6-4f3a-891e-1f647558f538"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RV-3028-C7:RV-3028-C7_32.768kHz_1ppm_TA_QC")
+		(at 46.99 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a37c284-d14d-4614-a6bf-7f240914ff32")
+		(property "Reference" "IC1"
+			(at 64.77 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RV-3028-C7_32.768kHz_1ppm_TA_QC"
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RTC:RV3028C7"
+			(at 78.74 277.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/530/RV_3028_C7-1524919.pdf"
+			(at 78.74 377.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Real Time Clock 32.768kHz I2C Time Acc. 1ppm"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 78.74 577.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "428-203591-MG01"
+			(at 78.74 677.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/RV-3028-C7-32.768kHz-1ppm-TA-QC?qs=u16ybLDytRaU7ZFJl2AxfQ%3D%3D"
+			(at 78.74 777.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Micro Crystal AG"
+			(at 78.74 877.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RV-3028-C7 32.768kHz 1ppm TA QC"
+			(at 78.74 977.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4c241958-313a-4b9c-8789-8a293daef575")
+		)
+		(pin "5"
+			(uuid "f57e91db-1dff-43eb-8b77-69b9b8cd770f")
+		)
+		(pin "6"
+			(uuid "3a10b97a-c1f5-4b4e-81f3-bdcbfdfac319")
+		)
+		(pin "3"
+			(uuid "0d1f8c2f-e5b3-4a88-bc11-d27c469c3d46")
+		)
+		(pin "2"
+			(uuid "d5255e45-be06-4014-9108-e31d731e3c07")
+		)
+		(pin "1"
+			(uuid "1a5652cb-51f4-4cb8-b0fb-4d70b6f96d2c")
+		)
+		(pin "7"
+			(uuid "a2809984-ad61-425c-b598-912294efb9dc")
+		)
+		(pin "8"
+			(uuid "ee221b0d-2e12-4b05-af6d-c2a490409cd7")
+		)
+		(instances
+			(project "battery_board_v3c"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -31636,7 +32118,7 @@
 			(uuid "03c3b6c0-3b24-4845-a4da-760fe962ff4f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R59")
 					(unit 1)
@@ -31702,7 +32184,7 @@
 			(uuid "c84d1095-061e-40e8-999e-b1b255dca024")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$07")
 					(unit 1)
@@ -31768,7 +32250,7 @@
 			(uuid "147a113d-5574-44b4-b7ee-af63ed988e84")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR064")
 					(unit 1)
@@ -31847,7 +32329,7 @@
 					(unit 1)
 				)
 			)
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C37")
 					(unit 1)
@@ -31922,7 +32404,7 @@
 			(uuid "70095d0f-632a-4c46-ae4c-42f78b3311e3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R37")
 					(unit 1)
@@ -31938,7 +32420,7 @@
 	)
 	(symbol
 		(lib_id "LT3652IMSE#PBF:LT3652IMSE#PBF")
-		(at 68.58 59.69 0)
+		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31947,7 +32429,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f3def6f-6a12-4b12-bbf2-c629a81e6852")
 		(property "Reference" "IC4"
-			(at 86.36 52.324 0)
+			(at 86.36 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31955,7 +32437,7 @@
 			)
 		)
 		(property "Value" "LT3652IMSE#PBF"
-			(at 86.36 54.864 0)
+			(at 86.36 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31963,7 +32445,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm"
-			(at 100.33 57.15 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31973,7 +32455,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf"
-			(at 100.33 59.69 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31983,7 +32465,7 @@
 			)
 		)
 		(property "Description" "Battery Management Power Tracking 2A Battery Charger for Solar Power"
-			(at 100.33 62.23 0)
+			(at 100.33 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31993,7 +32475,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 100.33 64.77 0)
+			(at 100.33 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32003,7 +32485,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT3652IMSE#PBF"
-			(at 100.33 67.31 0)
+			(at 100.33 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32013,7 +32495,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT3652IMSEPBF?qs=hVkxg5c3xu%2FU%2FMmx%252BnQrjg%3D%3D"
-			(at 100.33 69.85 0)
+			(at 100.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32023,7 +32505,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 100.33 72.39 0)
+			(at 100.33 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32033,7 +32515,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT3652IMSE#PBF"
-			(at 100.33 74.93 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32082,7 +32564,7 @@
 			(uuid "22c850f6-9ae1-4eb3-9649-0803dd82736b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "IC4")
 					(unit 1)
@@ -32151,7 +32633,7 @@
 			(uuid "28f8f98d-205a-4e86-810a-311e792f619d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J7")
 					(unit 1)
@@ -32220,7 +32702,7 @@
 			(uuid "031cbfe1-8dd3-47f7-a66e-9b2e805c103a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C15")
 					(unit 1)
@@ -32287,7 +32769,7 @@
 			(uuid "6cee64cb-f526-45dd-a32d-e236e8e1aef1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C12")
 					(unit 1)
@@ -32353,7 +32835,7 @@
 			(uuid "ca19dfb3-2eef-4c27-b755-98c0b1ba41fc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR062")
 					(unit 1)
@@ -32423,7 +32905,7 @@
 			(uuid "1ab0837e-7dba-4d67-a980-ff9c42eec4b2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R17")
 					(unit 1)
@@ -32492,7 +32974,7 @@
 			(uuid "9e1abe88-3bc9-4968-9175-6e1248dbbcd9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R23")
 					(unit 1)
@@ -32502,7 +32984,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 115.57 69.85 180)
+		(at 115.57 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32510,7 +32992,7 @@
 		(dnp no)
 		(uuid "22e5da6b-a1a4-4f10-ac9e-0473a6df4d19")
 		(property "Reference" "D6"
-			(at 115.57 72.39 0)
+			(at 115.57 76.2 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -32519,7 +33001,7 @@
 			)
 		)
 		(property "Value" "DFLS130L"
-			(at 131.826 68.58 0)
+			(at 131.826 72.39 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -32528,7 +33010,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32537,7 +33019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32546,7 +33028,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32555,7 +33037,7 @@
 			)
 		)
 		(property "Flight" "DFLS130L-7"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32564,7 +33046,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32573,7 +33055,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DFLS130L-7"
-			(at 115.57 74.93 0)
+			(at 115.57 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32582,7 +33064,7 @@
 			)
 		)
 		(property "Proto" "DFLS130L"
-			(at 115.57 69.85 0)
+			(at 115.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32591,7 +33073,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 114.3 62.23 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32607,7 +33089,7 @@
 			(uuid "01623ff6-5eab-4d89-a275-62ac9faf674e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D6")
 					(unit 1)
@@ -32739,7 +33221,7 @@
 			(uuid "c4189b9d-7d56-4c06-a3b0-293e3ed57af9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J11")
 					(unit 1)
@@ -32824,7 +33306,7 @@
 			(uuid "9654dc52-9ef1-49bc-933a-1ea5bcd3639e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J24")
 					(unit 1)
@@ -32840,7 +33322,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:10UF-0603-6.3V-20%")
-		(at 40.64 49.53 0)
+		(at 40.64 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32848,7 +33330,7 @@
 		(dnp no)
 		(uuid "24e3e8c2-59c0-4688-8b01-10804a47e615")
 		(property "Reference" "C34"
-			(at 31.75 50.8 0)
+			(at 31.75 54.61 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -32857,7 +33339,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 43.18 49.53 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -32866,7 +33348,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 40.64 49.53 0)
+			(at 40.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32875,7 +33357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 49.53 0)
+			(at 40.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32884,7 +33366,7 @@
 			)
 		)
 		(property "Description" "10uF +-20% 10V X5R"
-			(at 40.64 49.53 0)
+			(at 40.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32899,7 +33381,7 @@
 			(uuid "792ddee8-cda8-40d9-a2cb-29788f6113a5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C34")
 					(unit 1)
@@ -32966,7 +33448,7 @@
 			(uuid "2ba2d4e8-75bb-4014-a01b-0a486a37c8fb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR044")
 					(unit 1)
@@ -32982,7 +33464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 85.09 0)
+		(at 86.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32991,7 +33473,7 @@
 		(fields_autoplaced yes)
 		(uuid "2562b34a-de08-4d86-bac3-3144743029c3")
 		(property "Reference" "#PWR080"
-			(at 86.36 91.44 0)
+			(at 86.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33000,7 +33482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 90.17 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33008,7 +33490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 85.09 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33017,7 +33499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 85.09 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33026,7 +33508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 85.09 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33038,7 +33520,7 @@
 			(uuid "388e819b-d4d2-4351-91bf-7928022ef8a0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR080")
 					(unit 1)
@@ -33107,7 +33589,7 @@
 			(uuid "614f4d86-3dbd-4771-9103-7c2e6decacc7")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J3")
 					(unit 1)
@@ -33173,7 +33655,7 @@
 			(uuid "f23153d8-dd21-4dc2-9d65-1071a66a5974")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR010")
 					(unit 1)
@@ -33239,7 +33721,7 @@
 			(uuid "cd59521d-b524-4685-a2fb-4b6d9b8d9502")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V01")
 					(unit 1)
@@ -33312,7 +33794,7 @@
 					(unit 1)
 				)
 			)
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C35")
 					(unit 1)
@@ -33387,7 +33869,7 @@
 			(uuid "c2b1e849-1a19-4735-8b79-7ae7a4cad9ab")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C8")
 					(unit 1)
@@ -33453,7 +33935,7 @@
 			(uuid "e058b745-8db5-4cd3-acf5-c6b9a418018e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR027")
 					(unit 1)
@@ -33572,7 +34054,7 @@
 			(uuid "e1c48e99-0b62-466c-987f-08f9fed9f9a4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q5")
 					(unit 2)
@@ -33638,7 +34120,7 @@
 			(uuid "9af9d106-543e-44e9-9ab1-e5a1c3a197a2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR014")
 					(unit 1)
@@ -33704,7 +34186,7 @@
 			(uuid "7607b2ec-e1c3-4b7f-bd81-8fc64fe11007")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0102")
 					(unit 1)
@@ -33770,7 +34252,7 @@
 			(uuid "a38fef58-8053-4af6-8ed0-ed0ea428cf8f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR076")
 					(unit 1)
@@ -33842,7 +34324,7 @@
 			(uuid "d26ca285-686f-49c5-a7f9-2f5a4f544954")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR017")
 					(unit 1)
@@ -33852,7 +34334,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.737 149.098 0)
+		(at 54.61 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33861,7 +34343,7 @@
 		(fields_autoplaced yes)
 		(uuid "307742c0-54d7-440e-9d74-8bc3a4ae94e8")
 		(property "Reference" "#PWR03"
-			(at 54.737 155.448 0)
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33870,7 +34352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.737 154.178 0)
+			(at 54.61 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33878,7 +34360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.737 149.098 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33887,7 +34369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.737 149.098 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33896,7 +34378,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.737 149.098 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33908,7 +34390,7 @@
 			(uuid "232a39bc-9aef-45bc-99e9-ac897d5bd9fc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR03")
 					(unit 1)
@@ -33918,7 +34400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 49.53 0)
+		(at 137.16 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33927,7 +34409,7 @@
 		(fields_autoplaced yes)
 		(uuid "328c2033-2930-4089-b3fa-8268bf169f07")
 		(property "Reference" "#PWR092"
-			(at 137.16 55.88 0)
+			(at 137.16 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33936,7 +34418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 54.61 0)
+			(at 137.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33944,7 +34426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 49.53 0)
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33953,7 +34435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 49.53 0)
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33962,7 +34444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 49.53 0)
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33974,7 +34456,7 @@
 			(uuid "fa637da7-1d12-41ab-a980-780cbe85d903")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR092")
 					(unit 1)
@@ -34062,7 +34544,7 @@
 			(uuid "0851cbfd-edf1-4633-9b7e-66e65c0e850a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q1")
 					(unit 1)
@@ -34131,7 +34613,7 @@
 			(uuid "0d21c9dc-3f67-4dda-a66a-a96e4d0274a9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R58")
 					(unit 1)
@@ -34198,7 +34680,7 @@
 			(uuid "a108314f-4dc9-4c4f-92d4-1b85d48e7a13")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R8")
 					(unit 1)
@@ -34264,7 +34746,7 @@
 			(uuid "fa69fc9c-14f9-4f1b-be7e-a8c737e2bcb7")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR066")
 					(unit 1)
@@ -34332,7 +34814,7 @@
 			(uuid "810c6eec-9294-473a-bc49-841b3305ed1d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "FB3")
 					(unit 1)
@@ -34407,7 +34889,7 @@
 			(uuid "02be7563-1f59-47c0-ba00-8209d146cb76")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C48")
 					(unit 1)
@@ -34472,7 +34954,7 @@
 			(uuid "b16efdd4-7ef4-4337-b19a-fe062faef3df")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR048")
 					(unit 1)
@@ -34596,7 +35078,7 @@
 			(uuid "5f246e2b-302f-4f87-a099-f9228fc85ccf")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q3")
 					(unit 1)
@@ -34665,7 +35147,7 @@
 			(uuid "a0eaed17-dba3-4015-a5b7-b374abf76a84")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C10")
 					(unit 1)
@@ -34732,7 +35214,7 @@
 			(uuid "f57819e0-15e4-4749-80f4-06fbc52e18be")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R6")
 					(unit 1)
@@ -34798,7 +35280,7 @@
 			(uuid "bac095f4-5a73-4ada-8106-15fda6a34b13")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR033")
 					(unit 1)
@@ -34872,7 +35354,7 @@
 			(uuid "0d21de85-172a-4086-b0bc-c62a810d5c2d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J27")
 					(unit 1)
@@ -34938,7 +35420,7 @@
 			(uuid "913fc6b3-809c-4bb4-8ce2-9f2a56ecbae5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR086")
 					(unit 1)
@@ -35007,7 +35489,7 @@
 			(uuid "0954ac0a-a8fd-4dbd-9a24-9e05ca690b87")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R11")
 					(unit 1)
@@ -35073,7 +35555,7 @@
 			(uuid "788708e1-c093-47d6-9df6-840c8efdecfe")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR054")
 					(unit 1)
@@ -35139,7 +35621,7 @@
 			(uuid "2957798b-2934-4144-8cf7-3cd8c26b4762")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR099")
 					(unit 1)
@@ -35205,7 +35687,7 @@
 			(uuid "ab39296e-dc86-4744-9716-005c93c6b868")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V017")
 					(unit 1)
@@ -35357,7 +35839,7 @@
 			(uuid "13472118-4236-4efc-854b-453a37b8c54d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U11")
 					(unit 1)
@@ -35428,7 +35910,7 @@
 			(uuid "f7bcfc93-5690-4b30-98e4-e9a687fb204a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR020")
 					(unit 1)
@@ -35499,7 +35981,7 @@
 			(uuid "f861678e-ab40-4697-ac30-977d4522bf1d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR081")
 					(unit 1)
@@ -35564,7 +36046,7 @@
 			(uuid "6f7a6bde-46ae-4d7b-b3b1-bfd6c9ae9181")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR050")
 					(unit 1)
@@ -35636,7 +36118,7 @@
 			(uuid "be79545c-489a-4da8-b6b5-3ed2c132d4ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR069")
 					(unit 1)
@@ -35709,7 +36191,7 @@
 			(uuid "78eb2976-ac22-4822-a2ba-d277508e5cdb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP3")
 					(unit 1)
@@ -35774,7 +36256,7 @@
 			(uuid "1a24a55f-6306-4d31-8d40-190e5d8c27a6")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR049")
 					(unit 1)
@@ -35853,7 +36335,7 @@
 			(uuid "b328a66b-cc28-4510-b85f-dace9882cf7f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Y1")
 					(unit 1)
@@ -35919,7 +36401,7 @@
 			(uuid "bb38abc8-e0e8-49de-9c60-e266671330d5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR072")
 					(unit 1)
@@ -35999,7 +36481,7 @@
 			(uuid "4f827d4e-9de6-4156-82ed-737d7c1381e3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J20")
 					(unit 1)
@@ -36071,7 +36553,7 @@
 			(uuid "882532b5-08e5-42f6-a258-565192820d73")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V018")
 					(unit 1)
@@ -36087,7 +36569,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 143.51 39.37 270)
+		(at 143.51 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36095,7 +36577,7 @@
 		(dnp no)
 		(uuid "46e7cd80-bbab-4df1-b5ef-c29454fcf096")
 		(property "Reference" "D9"
-			(at 146.05 39.37 0)
+			(at 146.05 43.18 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -36104,7 +36586,7 @@
 			)
 		)
 		(property "Value" "DFLS130L"
-			(at 130.81 40.132 90)
+			(at 130.81 43.942 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -36113,7 +36595,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36122,7 +36604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36131,7 +36613,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36140,7 +36622,7 @@
 			)
 		)
 		(property "Flight" "DFLS130L-7"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36149,7 +36631,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36158,7 +36640,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DFLS130L-7"
-			(at 148.59 39.37 0)
+			(at 148.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36167,7 +36649,7 @@
 			)
 		)
 		(property "Proto" "DFLS130L"
-			(at 143.51 39.37 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36176,7 +36658,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 135.89 40.64 0)
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36192,7 +36674,7 @@
 			(uuid "5f75ae33-590f-4c4f-8bc1-0a182b3fbe2f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D9")
 					(unit 1)
@@ -36261,7 +36743,7 @@
 			(uuid "afb26259-3872-4d6b-ab79-ef7e2d8f89ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R38")
 					(unit 1)
@@ -36327,7 +36809,7 @@
 			(uuid "17a8b1cf-3db0-4806-9dd8-ab9b48bb80ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V04")
 					(unit 1)
@@ -36393,7 +36875,7 @@
 			(uuid "42d22c4a-1948-429e-bc2d-21e718f89668")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR058")
 					(unit 1)
@@ -36462,7 +36944,7 @@
 			(uuid "722fc0c9-ff45-438a-837a-aa294fcaf803")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C6")
 					(unit 1)
@@ -36529,7 +37011,7 @@
 			(uuid "afe5fb47-306e-40af-a87c-d5b370db7a18")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R16")
 					(unit 1)
@@ -36598,7 +37080,7 @@
 			(uuid "278ae102-dc44-44c4-8c3e-784b70f32801")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R9")
 					(unit 1)
@@ -36664,7 +37146,7 @@
 			(uuid "875a7248-b285-4f85-b82f-c178131f09f9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V012")
 					(unit 1)
@@ -36731,7 +37213,7 @@
 			(uuid "8e24a8cf-22a2-4242-913e-1c84f9682489")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V05")
 					(unit 1)
@@ -36747,7 +37229,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 66.04 53.34 0)
+		(at 66.04 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36756,7 +37238,7 @@
 		(dnp no)
 		(uuid "4b79f9c9-428d-4263-a51e-1df3965a935d")
 		(property "Reference" "R47"
-			(at 68.58 50.8 90)
+			(at 68.58 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36765,7 +37247,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 63.246 51.308 90)
+			(at 63.246 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36774,7 +37256,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 65.024 53.594 90)
+			(at 65.024 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36783,7 +37265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 53.34 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36792,7 +37274,7 @@
 			)
 		)
 		(property "Description" "100K 0603"
-			(at 67.7672 49.6316 0)
+			(at 67.7672 53.4416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36807,7 +37289,7 @@
 			(uuid "263e56d1-24ad-4f50-abda-f3436378d849")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R47")
 					(unit 1)
@@ -36874,7 +37356,7 @@
 			(uuid "49ea8b9e-0f7f-4d67-af78-0f0b8a145df2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C41")
 					(unit 1)
@@ -36943,7 +37425,7 @@
 			(uuid "bc62994f-916f-414e-bcae-5bd194b20d1a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R57")
 					(unit 1)
@@ -37011,7 +37493,7 @@
 			(uuid "f7d08e00-dd7b-437f-bb76-282051d205b9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "FB2")
 					(unit 1)
@@ -37084,7 +37566,7 @@
 			(uuid "b79b099c-2ea3-4bce-b5b1-709cee7c71b0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D10")
 					(unit 1)
@@ -37150,7 +37632,7 @@
 			(uuid "3d927595-8647-4221-8fcc-1f73d33a673e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR093")
 					(unit 1)
@@ -37219,7 +37701,7 @@
 			(uuid "f61bbe19-14c3-4352-a649-35c983e87033")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C43")
 					(unit 1)
@@ -37289,7 +37771,7 @@
 			(uuid "328f8c80-7036-4453-83b9-94f0c6ab8ac1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R31")
 					(unit 1)
@@ -37364,7 +37846,7 @@
 			(uuid "9c7d836f-2515-4daa-869e-056e0760009d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C46")
 					(unit 1)
@@ -37433,7 +37915,7 @@
 			(uuid "8e5dfee5-f60b-4271-a935-b74cf3498a97")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R21")
 					(unit 1)
@@ -37502,7 +37984,7 @@
 			(uuid "d9b40dd4-4225-4efe-b984-525b98df6e69")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R56")
 					(unit 1)
@@ -37568,7 +38050,7 @@
 			(uuid "ec2dcdcc-0e7b-4027-83d2-4fc5901bef58")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR096")
 					(unit 1)
@@ -37633,7 +38115,7 @@
 			(uuid "9f1ef9c6-adcf-43c7-9bb0-39c909f29681")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR051")
 					(unit 1)
@@ -37705,7 +38187,7 @@
 			(uuid "3f5bae55-42ec-42f0-ab81-4953f3f3807a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR063")
 					(unit 1)
@@ -37778,7 +38260,7 @@
 			(uuid "7080c239-1f3c-4e44-b1d5-f6d7779acd20")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C23")
 					(unit 1)
@@ -37844,7 +38326,7 @@
 			(uuid "f046bfa8-4db1-4d1c-b93c-c541f71f760a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR016")
 					(unit 1)
@@ -37910,7 +38392,7 @@
 			(uuid "fe2bd6b3-1ef0-479a-9f69-eeef420dbb63")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$03")
 					(unit 1)
@@ -37979,7 +38461,7 @@
 			(uuid "9ce4a637-7686-4e6e-9f7f-f7c2757f04de")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R29")
 					(unit 1)
@@ -38045,7 +38527,7 @@
 			(uuid "91922bf6-8fbb-48f7-9fde-bdce8673acb3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR023")
 					(unit 1)
@@ -38114,7 +38596,7 @@
 			(uuid "01044159-7eb4-417c-ab9d-e72bf63f5de5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C49")
 					(unit 1)
@@ -38179,7 +38661,7 @@
 			(uuid "72790fc6-8e07-4e3a-be3b-4036fdaec9c5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR043")
 					(unit 1)
@@ -38255,7 +38737,7 @@
 			(uuid "671a8764-ff7c-49c0-aae2-31d41ca684e3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R15")
 					(unit 1)
@@ -38322,7 +38804,7 @@
 			(uuid "734ae2e9-042e-4ac8-a809-345471b8ce26")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C27")
 					(unit 1)
@@ -38394,7 +38876,7 @@
 			(uuid "6ae29c0b-29f1-4ff1-9b51-9f29ef37f6fc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR042")
 					(unit 1)
@@ -38404,7 +38886,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:R-US_R0603")
-		(at 52.07 68.58 90)
+		(at 52.07 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38412,7 +38894,7 @@
 		(dnp no)
 		(uuid "64a03508-a278-43f6-ba9b-ffc1cd25fb34")
 		(property "Reference" "R44"
-			(at 45.212 69.342 90)
+			(at 45.212 73.152 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -38421,7 +38903,7 @@
 			)
 		)
 		(property "Value" "94k"
-			(at 45.72 72.136 90)
+			(at 45.72 75.946 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -38430,7 +38912,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 68.58 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38439,7 +38921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 68.58 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38448,7 +38930,7 @@
 			)
 		)
 		(property "Description" "787K 0603"
-			(at 50.8 68.58 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38463,7 +38945,7 @@
 			(uuid "db13b2b8-1765-4f7f-8931-34d3df0e4e8c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R44")
 					(unit 1)
@@ -38529,7 +39011,7 @@
 			(uuid "60532814-b957-433f-9bb4-84bec3c30728")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR074")
 					(unit 1)
@@ -38600,7 +39082,7 @@
 			(uuid "ca4a1182-f416-4c43-bb18-6a8c057519db")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR045")
 					(unit 1)
@@ -38714,7 +39196,7 @@
 			(uuid "1bb3b67a-cc28-42a5-a98b-fb0d07605858")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q7")
 					(unit 1)
@@ -38780,7 +39262,7 @@
 			(uuid "633a7797-f031-4960-984a-9d24cc2626ba")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR06")
 					(unit 1)
@@ -38846,7 +39328,7 @@
 			(uuid "407f3c57-888c-446b-b189-4ad20760d543")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V021")
 					(unit 1)
@@ -38913,7 +39395,7 @@
 			(uuid "2b62d274-813d-4423-a7c4-8165062690f2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0106")
 					(unit 1)
@@ -38979,7 +39461,7 @@
 			(uuid "ba5c0154-c1c6-4825-b859-21dbe0fbfa9b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR084")
 					(unit 1)
@@ -39045,7 +39527,7 @@
 			(uuid "6904a900-ae5c-4eac-9800-bf0c3601a9fa")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$06")
 					(unit 1)
@@ -39117,7 +39599,7 @@
 			(uuid "63e656aa-a6e0-4521-b7d0-8eecc63671a7")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR035")
 					(unit 1)
@@ -39184,7 +39666,7 @@
 			(uuid "5c84b6e5-2335-4b94-8d95-a193550fe6d8")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C24")
 					(unit 1)
@@ -39200,7 +39682,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 52.07 46.99 0)
+		(at 52.07 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39209,7 +39691,7 @@
 		(dnp no)
 		(uuid "70007568-1570-4e14-afec-3bca62505100")
 		(property "Reference" "R1043"
-			(at 53.34 45.974 0)
+			(at 53.34 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39218,7 +39700,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 53.7972 48.133 0)
+			(at 53.7972 51.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39227,7 +39709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 51.054 47.244 90)
+			(at 51.054 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39236,7 +39718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 46.99 0)
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39245,7 +39727,7 @@
 			)
 		)
 		(property "Description" "200K 0603"
-			(at 53.7972 43.2816 0)
+			(at 53.7972 47.0916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39260,7 +39742,7 @@
 			(uuid "dd5d2545-622c-4374-ab73-2df7affddd71")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R1043")
 					(unit 1)
@@ -39326,7 +39808,7 @@
 			(uuid "3e440c57-6dea-425d-9575-213fc5e269f4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR012")
 					(unit 1)
@@ -39413,7 +39895,7 @@
 			(uuid "942d6708-daec-4e97-b6b0-7017565f8add")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U12")
 					(unit 1)
@@ -39480,7 +39962,7 @@
 			(uuid "8e3fc079-ee1f-4589-b8cd-e88757085c15")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR073")
 					(unit 1)
@@ -39605,7 +40087,7 @@
 			(uuid "1c6643bf-0ad1-4773-8f94-3e925cb69b62")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q8")
 					(unit 1)
@@ -39675,7 +40157,7 @@
 			(uuid "c50fb5ad-8c8b-4b3c-b80c-fcea26754301")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R25")
 					(unit 1)
@@ -39783,7 +40265,7 @@
 			(uuid "9211f075-13dd-476a-af6c-d1f7c5c0262c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q4")
 					(unit 1)
@@ -39849,7 +40331,7 @@
 			(uuid "b5905138-bfed-41aa-9f71-d7fa93f7a547")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V023")
 					(unit 1)
@@ -39915,7 +40397,7 @@
 			(uuid "03849917-a7f8-4cbb-8fa7-a5d8beac5fad")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR079")
 					(unit 1)
@@ -39988,7 +40470,7 @@
 			(uuid "d4bcd7fd-5633-400c-8161-049004c8c83a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR085")
 					(unit 1)
@@ -39998,7 +40480,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:R-US_R0603")
-		(at 114.3 91.44 180)
+		(at 114.3 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40006,7 +40488,7 @@
 		(dnp no)
 		(uuid "754b26f5-abed-4a05-bc3b-aa036e734978")
 		(property "Reference" "R52"
-			(at 110.49 93.98 0)
+			(at 110.49 97.79 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -40015,7 +40497,7 @@
 			)
 		)
 		(property "Value" "412k"
-			(at 110.49 96.52 0)
+			(at 110.49 100.33 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -40024,7 +40506,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 114.3 91.44 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40033,7 +40515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 91.44 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40042,7 +40524,7 @@
 			)
 		)
 		(property "Description" "787K 0603"
-			(at 114.3 92.71 0)
+			(at 114.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40057,7 +40539,7 @@
 			(uuid "29e72479-196f-41fc-b89e-e95d57f93cfe")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R52")
 					(unit 1)
@@ -40122,7 +40604,7 @@
 			(uuid "e2d4278c-cd54-4ef8-8a2d-4cf87a05d1bd")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR040")
 					(unit 1)
@@ -40138,7 +40620,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:R-US_R0603")
-		(at 52.07 57.15 270)
+		(at 52.07 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40146,7 +40628,7 @@
 		(dnp no)
 		(uuid "77bc7b10-25d8-4d45-9bea-9355c534d448")
 		(property "Reference" "R43"
-			(at 54.356 60.96 0)
+			(at 54.356 64.77 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -40155,7 +40637,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 57.15 61.214 0)
+			(at 57.15 65.024 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -40164,7 +40646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 57.15 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40173,7 +40655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 57.15 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40182,7 +40664,7 @@
 			)
 		)
 		(property "Description" "787K 0603"
-			(at 53.34 57.15 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40197,7 +40679,7 @@
 			(uuid "ec8f5561-deb1-4c34-b4f0-62fc2de51a50")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R43")
 					(unit 1)
@@ -40263,7 +40745,7 @@
 			(uuid "8ffd260e-edc4-46b2-bbaa-7b95e188e699")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR083")
 					(unit 1)
@@ -40279,7 +40761,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:10UF-0603-6.3V-20%")
-		(at 127 82.55 0)
+		(at 127 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40287,7 +40769,7 @@
 		(dnp no)
 		(uuid "782f9059-2126-4aa9-9981-83505bea4ebd")
 		(property "Reference" "C40"
-			(at 129.286 81.28 0)
+			(at 129.286 85.09 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -40296,7 +40778,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 128.524 84.709 0)
+			(at 128.524 88.519 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -40305,7 +40787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127 82.55 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40314,7 +40796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 82.55 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40323,7 +40805,7 @@
 			)
 		)
 		(property "Description" "10uF +-20% 10V X5R"
-			(at 127 82.55 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40338,7 +40820,7 @@
 			(uuid "de9fc986-b39e-421e-9f1f-2e36f384d8ad")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C40")
 					(unit 1)
@@ -40405,7 +40887,7 @@
 			(uuid "38aaab25-2e13-4ab1-9ddb-af2081a2599f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP7")
 					(unit 1)
@@ -40480,7 +40962,7 @@
 			(uuid "95bd741c-e570-4211-ac0b-9dcf5fb23b2f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R40")
 					(unit 1)
@@ -40562,7 +41044,7 @@
 			(uuid "9f8622f6-ad6b-4167-9719-363e02e7677c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R45")
 					(unit 1)
@@ -40628,9 +41110,75 @@
 			(uuid "379eb107-88cf-4951-8c92-eaa852705838")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c1fc54a-e176-4359-9776-88cfc9e7bcc5")
+		(property "Reference" "#PWR02"
+			(at 85.09 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd67d9ef-14f3-41cf-be9b-e92cfaa22934")
+		)
+		(instances
+			(project "battery_board_v3c"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -40722,7 +41270,7 @@
 			(uuid "bfb4e3c4-65d3-4ee3-a5bb-33540501277f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U7")
 					(unit 1)
@@ -40801,7 +41349,7 @@
 					(unit 1)
 				)
 			)
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C36")
 					(unit 1)
@@ -40876,7 +41424,7 @@
 			(uuid "f0c16503-9c57-4875-8807-089384f6822a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R36")
 					(unit 1)
@@ -40941,7 +41489,7 @@
 			(uuid "abe4e8cf-4de0-4f98-bf7a-0abceac58efa")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR025")
 					(unit 1)
@@ -41014,7 +41562,7 @@
 			(uuid "9ad1f632-2ac3-4c12-88b7-16a84d6abd85")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C22")
 					(unit 1)
@@ -41093,7 +41641,7 @@
 					(unit 1)
 				)
 			)
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C38")
 					(unit 1)
@@ -41241,7 +41789,7 @@
 			(uuid "0a59054c-6e58-496f-b020-2cd7a6c1c9ec")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U2")
 					(unit 1)
@@ -41309,7 +41857,7 @@
 			(uuid "47302a33-e271-42be-ad69-f74712ecb454")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R12")
 					(unit 1)
@@ -41375,7 +41923,7 @@
 			(uuid "3bed8884-8f55-494c-9c6e-611ce93da2a8")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR018")
 					(unit 1)
@@ -41462,7 +42010,7 @@
 			(uuid "1773081c-c6a6-44da-b4b1-a1c425091d8b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U14")
 					(unit 1)
@@ -41528,7 +42076,7 @@
 			(uuid "bd57f15c-30b3-4651-a97d-642d2caafeeb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V016")
 					(unit 1)
@@ -41600,7 +42148,7 @@
 			(uuid "471506cf-f82c-48fa-9c7c-4ddd9f656f86")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$05")
 					(unit 1)
@@ -41675,7 +42223,7 @@
 			(uuid "8906e3bc-65f7-49e1-8a18-f124e01ffac1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "LED1")
 					(unit 1)
@@ -41750,7 +42298,7 @@
 			(uuid "84954ecc-bc62-4715-8549-6b6de0552a44")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J17")
 					(unit 1)
@@ -41875,7 +42423,7 @@
 			(uuid "96685b9d-aeb1-41a3-97bb-b63cb1381d75")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q9")
 					(unit 1)
@@ -41942,7 +42490,7 @@
 			(uuid "06e97f03-0e4c-4e9e-a91d-4dc76587d0cb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C20")
 					(unit 1)
@@ -42045,7 +42593,7 @@
 			(uuid "72895c36-32a8-4a58-a140-162e046fe357")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "L1")
 					(unit 1)
@@ -42150,7 +42698,7 @@
 			(uuid "8363ae05-1e5e-41ec-a705-35782337819c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D1")
 					(unit 1)
@@ -42217,7 +42765,7 @@
 			(uuid "bc976032-d475-4944-ba4c-f04443acf593")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR091")
 					(unit 1)
@@ -42233,7 +42781,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 42.037 138.938 0)
+		(at 41.91 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42242,7 +42790,7 @@
 		(dnp no)
 		(uuid "8b1b92d4-1201-4946-8d93-c4afc3cb5369")
 		(property "Reference" "R2"
-			(at 44.577 136.398 90)
+			(at 44.45 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42251,7 +42799,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 44.577 140.208 90)
+			(at 44.45 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42260,7 +42808,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.021 139.192 90)
+			(at 40.894 134.874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42269,7 +42817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 42.037 138.938 0)
+			(at 41.91 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42278,7 +42826,7 @@
 			)
 		)
 		(property "Description" "100K 0603"
-			(at 43.7642 135.2296 0)
+			(at 43.6372 130.9116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42293,7 +42841,7 @@
 			(uuid "49b0e22f-ccf0-4835-90be-5362f2166de1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R2")
 					(unit 1)
@@ -42359,7 +42907,7 @@
 			(uuid "db5e55b3-c9ef-46c3-9cab-3a542ef89fb3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V019")
 					(unit 1)
@@ -42429,7 +42977,7 @@
 			(uuid "99689913-5edc-45f6-ba12-29d6486d8bd7")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R13")
 					(unit 1)
@@ -42499,7 +43047,7 @@
 			(uuid "134ba840-6f0f-497c-b0d9-5235734f865e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R14")
 					(unit 1)
@@ -42568,7 +43116,7 @@
 			(uuid "fc641161-d23b-472f-8f27-98c64131e764")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C3")
 					(unit 1)
@@ -42635,7 +43183,7 @@
 			(uuid "7ffed997-2310-4ebc-bf78-f59d7c6ca5df")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C19")
 					(unit 1)
@@ -42707,7 +43255,7 @@
 			(uuid "d7e754b9-fceb-4f80-a819-3444dc48a5ad")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR015")
 					(unit 1)
@@ -42773,7 +43321,7 @@
 			(uuid "3f88259f-3e19-4f35-a996-c6daf37babdb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V015")
 					(unit 1)
@@ -42839,7 +43387,7 @@
 			(uuid "1a746456-05ad-4835-aff6-58c08abdfe4f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V014")
 					(unit 1)
@@ -42905,7 +43453,7 @@
 			(uuid "b67cc07a-c199-43a4-821c-2971b92598b4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR071")
 					(unit 1)
@@ -42976,7 +43524,7 @@
 			(uuid "809d1a60-574f-43d2-a37a-9dbc6d4819c2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR038")
 					(unit 1)
@@ -43048,7 +43596,7 @@
 			(uuid "4fc8566e-e0cf-4ce6-83a9-24d3f844fc7d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR090")
 					(unit 1)
@@ -43119,7 +43667,7 @@
 			(uuid "b4cef6bc-84d0-4463-94f6-7b7689d5e131")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR032")
 					(unit 1)
@@ -43185,7 +43733,7 @@
 			(uuid "ddb622b3-91e5-4de3-a75e-3503b07d301b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR024")
 					(unit 1)
@@ -43278,7 +43826,7 @@
 			(uuid "903ab598-08b0-4b8f-8c7a-5e90f120f18d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J23")
 					(unit 1)
@@ -43397,7 +43945,7 @@
 			(uuid "cdfec90e-8b9f-4f9b-ba30-031ba536006c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q3")
 					(unit 2)
@@ -43488,7 +44036,7 @@
 			(uuid "cecd9e8f-0279-4d24-aa61-9dff39e83bc0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U8")
 					(unit 1)
@@ -43563,7 +44111,7 @@
 			(uuid "610e75cd-58ed-4626-9e3e-a19603431939")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R49")
 					(unit 1)
@@ -43661,7 +44209,7 @@
 			(uuid "455231a2-a7d9-47df-ae87-118a2d8d93f3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J12")
 					(unit 1)
@@ -43730,7 +44278,7 @@
 			(uuid "81a6c90a-ce0a-4193-8f10-7d924934d70c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R27")
 					(unit 1)
@@ -43800,7 +44348,7 @@
 			(uuid "32be9959-ba61-44ea-a163-37fe57034cde")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "FB1")
 					(unit 1)
@@ -43875,7 +44423,7 @@
 			(uuid "a100be99-563d-442a-8e5c-37b6e972fe31")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R4")
 					(unit 1)
@@ -43941,7 +44489,7 @@
 			(uuid "4947e3f5-3158-4f0f-890b-e2d994c3b8e4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR013")
 					(unit 1)
@@ -44008,7 +44556,7 @@
 			(uuid "8bba0b74-69b4-4937-959b-9dfdfd0657ba")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C18")
 					(unit 1)
@@ -44089,7 +44637,7 @@
 			(uuid "501dc032-5a43-4e0e-962a-8e9eb2967ddc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "SW1")
 					(unit 1)
@@ -44157,7 +44705,7 @@
 			(uuid "a4606da1-ad6a-4186-8af0-7bd3a610dabb")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J18")
 					(unit 1)
@@ -44237,7 +44785,7 @@
 			(uuid "c7d13bdf-1e78-488b-ab93-5707bc8559bc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J22")
 					(unit 1)
@@ -44312,7 +44860,7 @@
 			(uuid "4353b28d-f0f1-4c0f-85c5-c8a18423232a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C14")
 					(unit 1)
@@ -44381,7 +44929,7 @@
 			(uuid "77153b2a-677a-4837-a609-07901c4967a9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C11")
 					(unit 1)
@@ -44502,7 +45050,7 @@
 			(uuid "81059528-3748-4b23-90ba-abf20ee94042")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U13")
 					(unit 1)
@@ -44512,7 +45060,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:10UF-0603-6.3V-20%")
-		(at 106.68 53.34 0)
+		(at 106.68 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44520,7 +45068,7 @@
 		(dnp no)
 		(uuid "a0dbfc35-31b1-4381-8715-b74e1b319a71")
 		(property "Reference" "C39"
-			(at 99.06 50.292 0)
+			(at 99.06 54.102 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -44529,7 +45077,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 99.06 53.34 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -44538,7 +45086,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.68 53.34 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44547,7 +45095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 53.34 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44556,7 +45104,7 @@
 			)
 		)
 		(property "Description" "10uF +-20% 10V X5R"
-			(at 106.68 53.34 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44571,7 +45119,7 @@
 			(uuid "af31badc-4e8a-48eb-a269-b80f856f517f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C39")
 					(unit 1)
@@ -44638,7 +45186,7 @@
 			(uuid "1a87cf3a-6414-4598-8850-1676119619ab")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP4")
 					(unit 1)
@@ -44707,7 +45255,7 @@
 			(uuid "8b5f4bcc-d740-40d2-b954-b2bd384dbb85")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R19")
 					(unit 1)
@@ -44851,7 +45399,7 @@
 			(uuid "499c70dc-003e-4e59-8180-f9593ced03f2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U3")
 					(unit 1)
@@ -44917,7 +45465,7 @@
 			(uuid "76b996f5-082c-43c4-8853-d02e99226f92")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR019")
 					(unit 1)
@@ -44986,7 +45534,7 @@
 			(uuid "3970a13c-e7b7-40d8-89ae-ed3af42d53a8")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C13")
 					(unit 1)
@@ -45055,7 +45603,7 @@
 			(uuid "974ef207-ea83-4113-b562-8d75251203a9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J9")
 					(unit 1)
@@ -45128,7 +45676,7 @@
 			(uuid "53970d2c-e676-40db-862d-b2b2182954ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "JP1")
 					(unit 1)
@@ -45144,7 +45692,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 125.73 46.99 0)
+		(at 125.73 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45153,7 +45701,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4f931ae-11eb-4516-99b5-bba846d22d89")
 		(property "Reference" "D7"
-			(at 125.4125 40.64 0)
+			(at 125.4125 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45161,7 +45709,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 125.4125 43.18 0)
+			(at 125.4125 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45169,7 +45717,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 125.73 46.99 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45178,7 +45726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 46.99 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45187,7 +45735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 46.99 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45202,7 +45750,7 @@
 			(uuid "f6bcf51d-b949-49e6-8b98-f9b86eb1fc02")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D7")
 					(unit 1)
@@ -45268,7 +45816,7 @@
 			(uuid "7c114e11-2147-47a9-85ac-0b199f700a90")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR030")
 					(unit 1)
@@ -45346,7 +45894,7 @@
 			(uuid "2656ce3d-d13a-43f4-a665-7c3cccbb0aaf")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R1")
 					(unit 1)
@@ -45412,7 +45960,7 @@
 			(uuid "ab08f5a6-870c-4de4-9cb1-905d133369e0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V07")
 					(unit 1)
@@ -45479,7 +46027,7 @@
 			(uuid "2a1edd96-039c-4bde-b4c2-3f6002398987")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V06")
 					(unit 1)
@@ -45545,7 +46093,7 @@
 			(uuid "493a60cb-36ca-43bc-b242-d76e29a18786")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR037")
 					(unit 1)
@@ -45620,7 +46168,7 @@
 			(uuid "9ea41974-229b-472a-a6da-49dd07741ccd")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C7")
 					(unit 1)
@@ -45689,7 +46237,7 @@
 			(uuid "5222d553-ea98-4b58-ac7c-2e02093e0c4b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C9")
 					(unit 1)
@@ -45821,7 +46369,7 @@
 			(uuid "b52e4530-9ea3-4205-b315-f41dbca90c4c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J26")
 					(unit 1)
@@ -45901,7 +46449,7 @@
 			(uuid "da4e2887-9e7e-4545-b356-56dcc5f9ea15")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J16")
 					(unit 1)
@@ -45976,7 +46524,7 @@
 			(uuid "4dad3bc3-bccb-4a61-8a0b-5728c7355b91")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "SW2")
 					(unit 1)
@@ -45986,7 +46534,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 83.566 141.478 0)
+		(at 83.439 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45995,7 +46543,7 @@
 		(fields_autoplaced yes)
 		(uuid "adbf395e-45ef-4e0f-9721-786fe18e4069")
 		(property "Reference" "#PWR08"
-			(at 83.566 145.288 0)
+			(at 83.439 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46004,7 +46552,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 83.566 136.398 0)
+			(at 83.439 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46012,7 +46560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.566 141.478 0)
+			(at 83.439 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46021,7 +46569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.566 141.478 0)
+			(at 83.439 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46030,7 +46578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.566 141.478 0)
+			(at 83.439 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46042,7 +46590,7 @@
 			(uuid "370c2346-a390-4249-a726-ddc3b6a1ff93")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR08")
 					(unit 1)
@@ -46107,7 +46655,7 @@
 			(uuid "65b740b5-1989-4a57-a126-958e17219bd3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR039")
 					(unit 1)
@@ -46123,7 +46671,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 118.11 59.69 90)
+		(at 118.11 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46131,7 +46679,7 @@
 		(dnp no)
 		(uuid "affb30c2-6f49-405e-9c33-7d5bf2440338")
 		(property "Reference" "L2"
-			(at 118.11 60.96 90)
+			(at 118.11 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46139,7 +46687,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 117.348 57.404 90)
+			(at 117.348 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46147,7 +46695,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
-			(at 118.11 59.69 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46156,7 +46704,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1910111502_3L-COILS-SNR5040K-330M_C326321.pdf"
-			(at 118.11 59.69 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46165,7 +46713,7 @@
 			)
 		)
 		(property "Description" "33uH Shielded Inductor"
-			(at 118.11 59.69 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46174,7 +46722,7 @@
 			)
 		)
 		(property "Flight" "SLF6028T-330MR69-PF"
-			(at 118.11 59.69 90)
+			(at 118.11 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46183,7 +46731,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "3L COILS"
-			(at 118.11 59.69 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46192,7 +46740,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SNR5040K-330M"
-			(at 115.57 60.96 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46201,7 +46749,7 @@
 			)
 		)
 		(property "Proto" "SNR5040K-330M"
-			(at 118.11 59.69 90)
+			(at 118.11 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46216,7 +46764,7 @@
 			(uuid "d5ccb654-6a89-4b77-9cff-54422f853914")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "L2")
 					(unit 1)
@@ -46282,7 +46830,7 @@
 			(uuid "9bc7d0d4-8246-4786-92cb-166bb9278dd1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR022")
 					(unit 1)
@@ -46357,7 +46905,7 @@
 			(uuid "c2f3e80c-ee7c-4839-b835-cdf3dd6ad619")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R54")
 					(unit 1)
@@ -46424,7 +46972,7 @@
 			(uuid "6f5f7420-89e6-4496-be4f-d045d47d6bb9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP5")
 					(unit 1)
@@ -46493,7 +47041,7 @@
 			(uuid "07f0975e-599e-443e-a68e-e9726f1e26b3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C1")
 					(unit 1)
@@ -46601,7 +47149,7 @@
 			(uuid "58721522-2461-4a23-8205-7cf5a56fbb8a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q6")
 					(unit 1)
@@ -46666,7 +47214,7 @@
 			(uuid "2fda856c-985c-4d52-a78f-33934b13475f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR036")
 					(unit 1)
@@ -46739,7 +47287,7 @@
 			(uuid "5734240e-5f49-4520-9015-d04f899aa26a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP6")
 					(unit 1)
@@ -46871,7 +47419,7 @@
 			(uuid "2484d3aa-ff2e-4f22-bca8-90a0b10115f8")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J21")
 					(unit 1)
@@ -46946,7 +47494,7 @@
 			(uuid "160ccbda-db3d-41f0-9e27-15a2d54fd4d4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R22")
 					(unit 1)
@@ -47012,7 +47560,7 @@
 			(uuid "5ba80c75-cd69-475d-91e8-3a9ccb888073")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U01")
 					(unit 1)
@@ -47077,7 +47625,7 @@
 			(uuid "c9b398b3-9910-4a76-9373-16568b89b43f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR01")
 					(unit 1)
@@ -47150,7 +47698,7 @@
 			(uuid "16d89154-93e4-4f27-a0a7-ca6f17a2ddde")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C5")
 					(unit 1)
@@ -47160,7 +47708,7 @@
 	)
 	(symbol
 		(lib_id "PCT2075DP_118:PCT2075DP,118")
-		(at 54.737 141.478 0)
+		(at 54.61 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47169,7 +47717,7 @@
 		(fields_autoplaced yes)
 		(uuid "b717e37f-378c-48d3-9cb6-87e85f7fc641")
 		(property "Reference" "IC2"
-			(at 67.437 134.112 0)
+			(at 67.31 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47177,7 +47725,7 @@
 			)
 		)
 		(property "Value" "PCT2075DP,118"
-			(at 67.437 136.652 0)
+			(at 67.31 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47185,7 +47733,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
-			(at 76.327 138.938 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47195,7 +47743,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCT2075.pdf"
-			(at 76.327 141.478 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47205,7 +47753,7 @@
 			)
 		)
 		(property "Description" "Board Mount Temperature Sensors I2C-bus Fm+, 1 degree C accuracy, digital temperature sensor and thermal watchdog"
-			(at 76.327 144.018 0)
+			(at 76.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47215,7 +47763,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 76.327 146.558 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47225,7 +47773,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-PCT2075DP118"
-			(at 76.327 149.098 0)
+			(at 76.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47235,7 +47783,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCT2075DP118?qs=lH1ILECabYlwLBLKMiotHw%3D%3D"
-			(at 76.327 151.638 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47245,7 +47793,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 76.327 154.178 0)
+			(at 76.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47255,7 +47803,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PCT2075DP,118"
-			(at 76.327 156.718 0)
+			(at 76.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47289,7 +47837,7 @@
 			(uuid "e15a3961-a89c-4bee-a419-365833042eb3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "IC2")
 					(unit 1)
@@ -47299,7 +47847,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:+3V3")
-		(at 66.04 46.99 0)
+		(at 66.04 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47308,7 +47856,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7911613-f3e9-41a4-b573-1b7c7e0b10df")
 		(property "Reference" "#+3V020"
-			(at 66.04 46.99 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47317,7 +47865,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 66.04 44.45 0)
+			(at 66.04 48.26 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -47325,7 +47873,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit ItsyBitsy RP2040:"
-			(at 66.04 46.99 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47334,7 +47882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 46.99 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47343,7 +47891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 46.99 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47355,7 +47903,7 @@
 			(uuid "6e7bc861-18da-43ac-8f61-1f04709e5091")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V020")
 					(unit 1)
@@ -47421,7 +47969,7 @@
 			(uuid "6f69c6b5-3f47-4045-a7b8-b245986c6978")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$01")
 					(unit 1)
@@ -47431,7 +47979,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 86.36 33.02 180)
+		(at 86.36 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47440,7 +47988,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7ca419d-18f3-4da9-883a-8f2eacec9365")
 		(property "Reference" "D12"
-			(at 86.6775 26.67 0)
+			(at 86.6775 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47448,7 +47996,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 86.6775 29.21 0)
+			(at 86.6775 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47456,7 +48004,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 86.36 33.02 0)
+			(at 86.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47465,7 +48013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 33.02 0)
+			(at 86.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47474,7 +48022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 33.02 0)
+			(at 86.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47489,7 +48037,7 @@
 			(uuid "36829d39-dee6-4df7-968f-b7fe86df6a56")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D12")
 					(unit 1)
@@ -47555,7 +48103,7 @@
 			(uuid "6149b7cb-4265-4673-a300-3f6f80310c52")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR061")
 					(unit 1)
@@ -47650,7 +48198,7 @@
 			(uuid "6e211e86-5100-4fb9-88e2-0fead6c4a516")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q2")
 					(unit 1)
@@ -47716,7 +48264,7 @@
 			(uuid "75875ff6-17dd-441a-a1bb-c0e222d05769")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR07")
 					(unit 1)
@@ -47785,7 +48333,7 @@
 			(uuid "636da535-c024-48d1-8519-aacc01765d0e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R39")
 					(unit 1)
@@ -47851,7 +48399,7 @@
 			(uuid "f35d7b8e-8fe3-4c5c-a496-958e70e275be")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V03")
 					(unit 1)
@@ -47920,7 +48468,7 @@
 			(uuid "7f7ded42-1c85-42da-b794-d326f417c6f3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R3")
 					(unit 1)
@@ -47997,7 +48545,7 @@
 			(uuid "d5a549f5-1940-420f-b59c-65754645d6af")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J14")
 					(unit 1)
@@ -48122,7 +48670,7 @@
 			(uuid "41c0993c-f076-4b38-b6f9-c1e385eb29b1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q11")
 					(unit 1)
@@ -48188,7 +48736,7 @@
 			(uuid "e6447cdb-0bff-4c8b-a791-c27462bc8f29")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR077")
 					(unit 1)
@@ -48259,7 +48807,7 @@
 			(uuid "1b30ab85-8edd-418c-9656-2c72789c4213")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR098")
 					(unit 1)
@@ -48334,7 +48882,7 @@
 			(uuid "328248fa-c93a-46b8-b068-0ed4bac9a737")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J1")
 					(unit 1)
@@ -48401,7 +48949,7 @@
 			(uuid "aebc78b6-9263-400d-9eee-f252803eff02")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0104")
 					(unit 1)
@@ -48470,7 +49018,7 @@
 			(uuid "f261fb01-ae19-43d3-bedd-6476aa798b5d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D8")
 					(unit 1)
@@ -48536,7 +49084,7 @@
 			(uuid "b850dbb5-633a-4b2e-ba82-e2d681dfa232")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR029")
 					(unit 1)
@@ -48639,7 +49187,7 @@
 			(uuid "fda7b715-5c8f-44c6-b9fd-9e0739018ed1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "L3")
 					(unit 1)
@@ -48708,7 +49256,7 @@
 			(uuid "19e015a5-9dc9-4253-ba82-a02a4afcd960")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R61")
 					(unit 1)
@@ -48774,7 +49322,7 @@
 			(uuid "c70c2ccd-c224-4f9d-84ba-b09a2db6853d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U02")
 					(unit 1)
@@ -48840,7 +49388,7 @@
 			(uuid "1ef48288-387c-4152-8ec0-5af83a942bb9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR026")
 					(unit 1)
@@ -48906,7 +49454,7 @@
 			(uuid "bef10b55-351d-44f7-9c99-be380366d87a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U$04")
 					(unit 1)
@@ -48916,7 +49464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 93.98 0)
+		(at 123.19 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48925,7 +49473,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4b69bf9-4d7c-408c-93e1-92a3df4e37d2")
 		(property "Reference" "#PWR087"
-			(at 123.19 100.33 0)
+			(at 123.19 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48934,7 +49482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 99.06 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48942,7 +49490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 93.98 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48951,7 +49499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 93.98 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48960,7 +49508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 93.98 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48972,7 +49520,7 @@
 			(uuid "f58c4280-57a4-41a9-b652-db1f0f087f0b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR087")
 					(unit 1)
@@ -49038,7 +49586,7 @@
 			(uuid "f116b9ca-e2dc-4aec-8de5-291877134c66")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR05")
 					(unit 1)
@@ -49107,7 +49655,7 @@
 			(uuid "113f2e8f-a60f-43a8-bc61-816202cc9845")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C45")
 					(unit 1)
@@ -49176,7 +49724,7 @@
 			(uuid "4185fac0-3d1f-4da7-9ae3-91119aaea74f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C4")
 					(unit 1)
@@ -49258,7 +49806,7 @@
 			(uuid "be8d7b23-1fe6-43b9-902a-e2b4e0b5fc52")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D5")
 					(unit 1)
@@ -49333,7 +49881,7 @@
 			(uuid "ec379aa9-6990-49f8-a0e2-e5442aa71dcc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R30")
 					(unit 1)
@@ -49399,7 +49947,7 @@
 			(uuid "ef702943-1ebb-4ce2-8531-2cbaed511d7e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR028")
 					(unit 1)
@@ -49518,7 +50066,7 @@
 			(uuid "e6d65863-0c12-4d35-b91f-6d6afb1e78ff")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U6")
 					(unit 1)
@@ -49752,7 +50300,7 @@
 			(uuid "2c805a96-0d2b-4857-83c0-6549779b3d4b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "IC3")
 					(unit 1)
@@ -49819,7 +50367,7 @@
 			(uuid "05321fbe-7dad-4a55-8c1d-3a0308844144")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C21")
 					(unit 1)
@@ -49885,7 +50433,7 @@
 			(uuid "4506963b-cc9f-4039-beab-051127039ec2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR09")
 					(unit 1)
@@ -49954,7 +50502,7 @@
 			(uuid "f3a9c6a7-6195-462c-b0ff-054d3de227f0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R34")
 					(unit 1)
@@ -50027,7 +50575,7 @@
 			(uuid "e3bd07a8-b1d5-40f3-90bb-9739aba4417c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D3")
 					(unit 1)
@@ -50093,7 +50641,7 @@
 			(uuid "fb7ab41f-2de3-4a17-a03a-9843202dec99")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR031")
 					(unit 1)
@@ -50159,7 +50707,7 @@
 			(uuid "785d339a-1cc5-4077-8237-91d43c615b98")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V011")
 					(unit 1)
@@ -50228,7 +50776,7 @@
 			(uuid "fa5ab704-bd0e-4bac-b240-3b0276c095a3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R33")
 					(unit 1)
@@ -50300,7 +50848,7 @@
 			(uuid "e6d47560-dd56-4d55-be04-98a433022524")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR068")
 					(unit 1)
@@ -50372,7 +50920,7 @@
 			(uuid "86b4e753-34a1-4e15-9543-75ffa61bc9bf")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR046")
 					(unit 1)
@@ -50441,7 +50989,7 @@
 			(uuid "a90c7c36-b8b0-4a3b-8d48-d4af21325bec")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J5")
 					(unit 1)
@@ -50510,7 +51058,7 @@
 			(uuid "32075936-c4f2-4d0f-946e-b03866ab9137")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R60")
 					(unit 1)
@@ -50579,7 +51127,7 @@
 			(uuid "b758cc87-ba6d-4e85-8476-7fa58276d9c2")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R63")
 					(unit 1)
@@ -50649,7 +51197,7 @@
 			(uuid "88d79bd0-2761-4394-af6c-28e34a67a8bc")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R10")
 					(unit 1)
@@ -50715,7 +51263,7 @@
 			(uuid "96f09f44-3d7a-4043-8de0-20668536b61f")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR021")
 					(unit 1)
@@ -50784,7 +51332,7 @@
 			(uuid "5451d17c-8931-4d60-a069-7f802b41707a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R65")
 					(unit 1)
@@ -50853,7 +51401,7 @@
 			(uuid "31bf4e7c-4251-4887-9ccd-9a8600695217")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R53")
 					(unit 1)
@@ -50938,7 +51486,7 @@
 			(uuid "5d6c29da-0b64-405f-9adf-098824ff43ca")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U9")
 					(unit 1)
@@ -50954,7 +51502,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 35.56 43.18 180)
+		(at 35.56 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50963,7 +51511,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ccbeb2-9ef6-42df-a2d4-6b0932b6efed")
 		(property "Reference" "D4"
-			(at 35.8775 36.83 0)
+			(at 35.8775 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50971,7 +51519,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 35.8775 39.37 0)
+			(at 35.8775 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50979,7 +51527,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 35.56 43.18 0)
+			(at 35.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50988,7 +51536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 43.18 0)
+			(at 35.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50997,7 +51545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 43.18 0)
+			(at 35.56 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51012,7 +51560,7 @@
 			(uuid "3fcce6e2-64fe-4ad6-84ad-6113329d837b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D4")
 					(unit 1)
@@ -51077,7 +51625,7 @@
 			(uuid "acc87679-56a8-49a6-b33a-9cdf5710b050")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR041")
 					(unit 1)
@@ -51156,7 +51704,7 @@
 			(uuid "af2b8d4e-ace5-4787-8940-a9d92a276e25")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Y2")
 					(unit 1)
@@ -51222,7 +51770,7 @@
 			(uuid "766bed86-4f3f-4bf2-916a-f9ebcf14082a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR034")
 					(unit 1)
@@ -51288,7 +51836,7 @@
 			(uuid "f8d26eb0-633d-42a0-afb9-18463fc5cbb3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR078")
 					(unit 1)
@@ -51360,7 +51908,7 @@
 			(uuid "436b95ea-25fc-4600-9aea-654e9df74f50")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0101")
 					(unit 1)
@@ -51429,7 +51977,7 @@
 			(uuid "21e4c75e-27aa-4486-88c9-48ecad952766")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R41")
 					(unit 1)
@@ -51496,7 +52044,7 @@
 			(uuid "0a0c86c6-cc50-4ee6-88fa-758f78159d46")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V08")
 					(unit 1)
@@ -51569,7 +52117,7 @@
 			(uuid "45269335-aec2-4715-b4ef-1e4a500572a4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#GND01")
 					(unit 1)
@@ -51642,7 +52190,7 @@
 			(uuid "d7758d88-b23b-4eca-99aa-b554051823c4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C17")
 					(unit 1)
@@ -51717,7 +52265,7 @@
 			(uuid "f180781b-06e8-42d7-b668-1b5d1723b80a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R32")
 					(unit 1)
@@ -51792,7 +52340,7 @@
 			(uuid "4be7cf27-3ddb-400b-af44-21e057d040a0")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C2")
 					(unit 1)
@@ -51858,7 +52406,7 @@
 			(uuid "0d7d0763-7b5e-4dd7-b9a5-c085b10339ce")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR052")
 					(unit 1)
@@ -51927,7 +52475,7 @@
 			(uuid "2d27965a-669f-4f01-8ad9-6865df926d94")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R64")
 					(unit 1)
@@ -51937,7 +52485,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:R-US_R0603")
-		(at 127 64.77 180)
+		(at 127 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51945,7 +52493,7 @@
 		(dnp no)
 		(uuid "d92b9aeb-54ad-4262-a20f-a339f8f90be3")
 		(property "Reference" "R55"
-			(at 125.73 60.198 0)
+			(at 125.73 64.008 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -51954,7 +52502,7 @@
 			)
 		)
 		(property "Value" "0.1"
-			(at 125.73 62.738 0)
+			(at 125.73 66.548 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -51963,7 +52511,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 127 64.77 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51972,7 +52520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 64.77 0)
+			(at 127 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51981,7 +52529,7 @@
 			)
 		)
 		(property "Description" "787K 0603"
-			(at 127 66.04 0)
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51996,7 +52544,7 @@
 			(uuid "5afa1e13-46bb-4311-bafb-9bb2a55d5efe")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R55")
 					(unit 1)
@@ -52063,7 +52611,7 @@
 			(uuid "0246b1aa-cac2-4abd-8103-61bd73b43b7e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP1")
 					(unit 1)
@@ -52130,7 +52678,7 @@
 			(uuid "1a9d4d83-65a1-440d-8d57-86bb34d7480c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C42")
 					(unit 1)
@@ -52197,7 +52745,7 @@
 			(uuid "87b08b18-9524-4a4e-84b8-f7c0a202fa8a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C29")
 					(unit 1)
@@ -52263,7 +52811,7 @@
 			(uuid "4ccaa9e2-ca10-4644-9d92-3c1741e70f64")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR088")
 					(unit 1)
@@ -52329,7 +52877,7 @@
 			(uuid "64b9523e-9cfd-48de-8958-7199ff533d6b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V013")
 					(unit 1)
@@ -52396,7 +52944,7 @@
 			(uuid "6316a4bf-d14a-4ad9-82ee-7cdafb5f74d4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R18")
 					(unit 1)
@@ -52538,7 +53086,7 @@
 			(uuid "4048ff60-99f2-4991-9fb3-a68673da57ad")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U4")
 					(unit 1)
@@ -52605,7 +53153,7 @@
 			(uuid "78d15898-6776-4a0b-b058-62439351a072")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP9")
 					(unit 1)
@@ -52672,7 +53220,7 @@
 			(uuid "40420145-7017-4c09-b33b-7e2916e13315")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V024")
 					(unit 1)
@@ -52780,7 +53328,7 @@
 			(uuid "96226321-6942-48b2-ad5b-7b5876bd3328")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "Q10")
 					(unit 1)
@@ -52790,7 +53338,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 52.07 38.1 90)
+		(at 52.07 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52799,7 +53347,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1596591-21ad-4476-af6b-df0ae2f30189")
 		(property "Reference" "D11"
-			(at 54.61 37.1474 90)
+			(at 54.61 40.9574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52808,7 +53356,7 @@
 			)
 		)
 		(property "Value" "DFLS130L-7"
-			(at 54.61 39.6874 90)
+			(at 54.61 43.4974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52817,7 +53365,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 52.07 38.1 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52826,7 +53374,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 38.1 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52835,7 +53383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 38.1 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52850,7 +53398,7 @@
 			(uuid "8a9efceb-0c4e-4797-8062-afee7380cca9")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "D11")
 					(unit 1)
@@ -52919,7 +53467,7 @@
 			(uuid "cba5987b-a07d-4df7-8b02-993b63e997da")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C44")
 					(unit 1)
@@ -52986,7 +53534,7 @@
 			(uuid "0818fdcb-ca9f-4ffa-8091-ca7128d87f51")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C16")
 					(unit 1)
@@ -53058,7 +53606,7 @@
 			(uuid "d2f21700-a188-4867-98c9-157c49cc9aef")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR059")
 					(unit 1)
@@ -53124,7 +53672,7 @@
 			(uuid "83bc20b6-e8a3-4a4f-9fb1-a1586aac4a4a")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR065")
 					(unit 1)
@@ -53197,7 +53745,7 @@
 			(uuid "311d5214-7285-463d-b66e-85563f95d68b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP8")
 					(unit 1)
@@ -53207,7 +53755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 77.47 0)
+		(at 52.07 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53216,7 +53764,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5ab2a4a-d83a-489f-a294-4adb66cee560")
 		(property "Reference" "#PWR070"
-			(at 52.07 83.82 0)
+			(at 52.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53225,7 +53773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 82.55 0)
+			(at 52.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53233,7 +53781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 77.47 0)
+			(at 52.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53242,7 +53790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 77.47 0)
+			(at 52.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53251,7 +53799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 77.47 0)
+			(at 52.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53263,7 +53811,7 @@
 			(uuid "1bcb4371-8e46-4503-a0c4-2f5212940e9c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR070")
 					(unit 1)
@@ -53407,7 +53955,7 @@
 			(uuid "9103d42c-113b-4acb-83e8-dcc55cf77842")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U5")
 					(unit 1)
@@ -53476,7 +54024,7 @@
 			(uuid "f55a6d20-d9bc-4045-822d-fd21ca5b2480")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R28")
 					(unit 1)
@@ -53542,7 +54090,7 @@
 			(uuid "0b6a0e63-93e1-4e3a-8c58-520b5e354349")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V09")
 					(unit 1)
@@ -53614,7 +54162,7 @@
 			(uuid "f6dc3546-ffc5-49cd-a283-2905415a73d6")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR082")
 					(unit 1)
@@ -53680,7 +54228,7 @@
 			(uuid "03d45ab9-ea29-4b41-98a3-96c040ab6fcd")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR011")
 					(unit 1)
@@ -53747,7 +54295,7 @@
 			(uuid "769f3afc-dea2-4dc6-8a8a-f2eb24ae2869")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "TP2")
 					(unit 1)
@@ -53813,7 +54361,7 @@
 			(uuid "c2e9868f-5d1d-463f-85c7-c49444244884")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR060")
 					(unit 1)
@@ -53879,7 +54427,7 @@
 			(uuid "c9fcd748-48e3-41b4-b3db-56c9c96bdc85")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#U03")
 					(unit 1)
@@ -53945,7 +54493,7 @@
 			(uuid "51a9f08f-d4f9-455c-8f0f-c0e72753aea3")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR057")
 					(unit 1)
@@ -53955,7 +54503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 87.63 0)
+		(at 127 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53964,7 +54512,7 @@
 		(fields_autoplaced yes)
 		(uuid "edf72c10-8b7e-4a12-9d6d-0b97d1c61e81")
 		(property "Reference" "#PWR089"
-			(at 127 93.98 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53973,7 +54521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 92.71 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53981,7 +54529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 87.63 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53990,7 +54538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 87.63 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53999,7 +54547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 87.63 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54011,7 +54559,7 @@
 			(uuid "d9cba6c1-fc0a-43fe-ba95-50fd086bdee1")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR089")
 					(unit 1)
@@ -54080,7 +54628,7 @@
 			(uuid "d1a87733-d5e9-4e19-b27e-bc708eccdfd5")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J10")
 					(unit 1)
@@ -54149,7 +54697,7 @@
 			(uuid "0a87dd13-1d8d-49fb-88db-105b3d6a120c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C47")
 					(unit 1)
@@ -54215,7 +54763,7 @@
 			(uuid "a7d04942-439f-4c90-bc8a-c009f59c8f17")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V02")
 					(unit 1)
@@ -54287,7 +54835,7 @@
 			(uuid "ad339f9f-7d8d-4843-a3f5-ea5648942865")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR04")
 					(unit 1)
@@ -54356,7 +54904,7 @@
 			(uuid "027f5a09-88fd-46e2-be66-ce03a0bc275b")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R5")
 					(unit 1)
@@ -54366,7 +54914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 52.07 0)
+		(at 40.64 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54375,7 +54923,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2daf490-04ea-4951-b98d-3259d0485c4f")
 		(property "Reference" "#PWR067"
-			(at 40.64 58.42 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54384,7 +54932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 57.15 0)
+			(at 40.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54392,7 +54940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 52.07 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54401,7 +54949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 52.07 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54410,7 +54958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 52.07 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54422,7 +54970,7 @@
 			(uuid "4f1be392-dbb1-491c-a72a-42e9e78d7eac")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR067")
 					(unit 1)
@@ -54498,7 +55046,7 @@
 			(uuid "61c92222-f7b6-474e-b98d-1cf14c920852")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J15")
 					(unit 1)
@@ -54508,7 +55056,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:R-US_R0603")
-		(at 109.22 83.82 90)
+		(at 109.22 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54516,7 +55064,7 @@
 		(dnp no)
 		(uuid "f32424df-d3c2-4529-98cd-64f2344410b7")
 		(property "Reference" "R51"
-			(at 110.998 82.042 90)
+			(at 110.998 85.852 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -54525,7 +55073,7 @@
 			)
 		)
 		(property "Value" "634k"
-			(at 110.998 85.344 90)
+			(at 110.998 89.154 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -54534,7 +55082,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 83.82 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54543,7 +55091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 83.82 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54552,7 +55100,7 @@
 			)
 		)
 		(property "Description" "787K 0603"
-			(at 107.95 83.82 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54567,7 +55115,7 @@
 			(uuid "597eb2fe-37ab-4e5b-a6d5-650e08421b28")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R51")
 					(unit 1)
@@ -54634,7 +55182,7 @@
 			(uuid "c1afcaa0-3bd0-4909-9074-43c5ded7114d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C30")
 					(unit 1)
@@ -54701,7 +55249,7 @@
 			(uuid "eb6dfddd-a592-4f77-b332-76b78d2d4726")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C32")
 					(unit 1)
@@ -54767,7 +55315,7 @@
 			(uuid "7739a412-2c04-44af-8065-e1afb9b58b2e")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR095")
 					(unit 1)
@@ -54836,7 +55384,7 @@
 			(uuid "baecf675-d8de-4b28-a8ee-4d8f71ec56c6")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R46")
 					(unit 1)
@@ -54911,7 +55459,7 @@
 			(uuid "05285106-dbbe-4d2b-b9b2-5a790e17a44c")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R20")
 					(unit 1)
@@ -54977,7 +55525,7 @@
 			(uuid "70ced820-3ddf-428f-b677-f1a682c19b0d")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#+3V022")
 					(unit 1)
@@ -55044,7 +55592,7 @@
 			(uuid "b16223bc-4070-4922-a17d-92c1e30e2352")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR0103")
 					(unit 1)
@@ -55110,7 +55658,7 @@
 			(uuid "41d3c3f1-8c08-4891-8255-5782ddadc817")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR053")
 					(unit 1)
@@ -55179,7 +55727,7 @@
 			(uuid "964fc59c-3cca-483d-a36b-44122d0be5f4")
 		)
 		(instances
-			(project "battery_board_v3b"
+			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R62")
 					(unit 1)

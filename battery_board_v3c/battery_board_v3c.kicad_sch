@@ -17485,6 +17485,16 @@
 		)
 		(uuid "047546a5-684f-4ee4-a03d-aab31b3d231c")
 	)
+	(wire
+		(pts
+			(xy 24.13 179.07) (xy 24.13 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b6bd97-a89d-42e4-9c8f-d7ddc8e42989")
+	)
 	(polyline
 		(pts
 			(xy 528.32 53.34) (xy 528.32 19.05)
@@ -24264,6 +24274,16 @@
 			(type default)
 		)
 		(uuid "e7ba3b8f-b598-49aa-be24-b19d5d05a1b9")
+	)
+	(wire
+		(pts
+			(xy 24.13 189.23) (xy 24.13 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e621aa-f05e-44f9-9cdc-b8865bb4d85f")
 	)
 	(wire
 		(pts
@@ -32333,6 +32353,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit ItsyBitsy RP2040-eagle-import:CAP_CERAMIC_0603MP")
+		(at 24.13 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "214015f5-b705-4000-8d93-dd3742f45d15")
+		(property "Reference" "C53"
+			(at 21.84 185.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 26.43 185.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 24.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b69d51b-6856-4c87-a2ac-018063d65b5b")
+		)
+		(pin "2"
+			(uuid "323bc4b4-2932-41d0-bebf-f70e4ea3a107")
+		)
+		(instances
+			(project "battery_board_v3c"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 528.32 240.03 0)
 		(unit 1)
@@ -39133,6 +39220,72 @@
 			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e846418-7193-414b-97c0-abf25b7d6164")
+		(property "Reference" "#PWR045"
+			(at 24.13 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 196.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b95d57a-ccea-4b36-845e-9eebe8e1d15a")
+		)
+		(instances
+			(project "battery_board_v3c"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -50508,6 +50661,71 @@
 			(project "flight_computer_dev_board_rfm98pw"
 				(path "/c64c0d72-a9f6-4f3a-891e-1f647558f538"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 24.13 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd451a56-09ee-4d20-ad7d-7c4698042fa8")
+		(property "Reference" "#PWR040"
+			(at 24.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_BACKUP"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 24.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ef0a7a-ec17-4059-82ad-750967c229f1")
+		)
+		(instances
+			(project "battery_board_v3c"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

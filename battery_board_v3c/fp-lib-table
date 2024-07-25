@@ -11,4 +11,5 @@
   (lib (name "W5500")(type "KiCad")(uri "${KIPRJMOD}/Footprints/W5500/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "AZ1117")(type "KiCad")(uri "${KIPRJMOD}/Footprints/LIB_AZ1117CH-3.3TRG1 (1)/AZ1117CH-3.3TRG1/KiCad")(options "")(descr ""))
   (lib (name "Battery Board")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
+  (lib (name "RTC")(type "KiCad")(uri "${KIPRJMOD}/Footprints/RTC")(options "")(descr ""))
 )

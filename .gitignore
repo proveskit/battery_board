@@ -1,11 +1,3 @@
-
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-04-16_150216.zip
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-03_121207.zip
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-07_120042.zip
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-22_192003.zip
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-23_175310.zip
-Battery_Board_V3a_with_lt3652/Battery_Board_V3a-backups/Battery_Board_V3a-2024-05-24_150831.zip
-
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -35,8 +27,4 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
+*.DS_Store

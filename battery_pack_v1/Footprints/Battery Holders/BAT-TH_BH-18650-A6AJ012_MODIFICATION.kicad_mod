@@ -1,0 +1,235 @@
+(footprint "BAT-TH_BH-18650-A6AJ012_MODIFICATION"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "2b55c39f-8912-41cc-aa15-cfbf46f0a6c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT-TH_BH-18650-A6AJ012_MODIFICATION"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "0154284e-6cef-4ca3-8f54-d86627768309")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c92500f-f4b7-4317-ba96-a09ab8f0ae5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a80d9dc4-b496-4eb1-8083-1adccd9ceb4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -38.53 -10.33)
+		(end 38.52 -10.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d81abdb-fbd8-432b-8ce6-7bd256301c38")
+	)
+	(fp_line
+		(start -38.53 10.32)
+		(end -38.53 -10.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aacdb9e8-c898-4985-8e79-460e39353515")
+	)
+	(fp_line
+		(start -38.53 10.32)
+		(end 38.52 10.32)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad791e7c-ee7b-4d37-985c-d5244d844cc5")
+	)
+	(fp_line
+		(start 38.52 10.32)
+		(end 38.52 -10.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e7b93a5-fad7-4820-8ee6-685f1345a3af")
+	)
+	(fp_circle
+		(center -27.6 8)
+		(end -26.85 8)
+		(stroke
+			(width 1.52)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8fe0890f-1c0c-46b7-be6f-aea710084ff2")
+	)
+	(fp_circle
+		(center 27.6 -8)
+		(end 28.35 -8)
+		(stroke
+			(width 1.52)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "aa341a91-1757-411a-8d22-981deec43d60")
+	)
+	(fp_circle
+		(center 35.79 8)
+		(end 36.39 8)
+		(stroke
+			(width 1.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e3b260fc-cc2c-4fed-a5a1-4cd70a2984cf")
+	)
+	(fp_circle
+		(center -38.5 10.35)
+		(end -38.47 10.35)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dac829b4-bf6e-4309-a2c5-8e5148b38768")
+	)
+	(fp_text user "-"
+		(at -36.59 4.72 0)
+		(layer "F.SilkS")
+		(uuid "d17f5715-e673-4403-a567-9923992eec3d")
+		(effects
+			(font
+				(size 2.03 2.03)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "+"
+		(at 35.05 -2.69 0)
+		(layer "F.SilkS")
+		(uuid "fece9c78-419b-4027-86f6-a9ee2cd8ffd1")
+		(effects
+			(font
+				(size 2.03 2.03)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0409de9c-1bcd-4436-b95c-af54fbdd8f23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -27.6 8)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4035f07a-5c1b-4631-b562-ec1646a5cadb")
+	)
+	(pad "" thru_hole circle
+		(at 27.6 -8)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16694def-3e4d-4158-86f7-2a56c6e20232")
+	)
+	(pad "" thru_hole circle
+		(at 35.8 8)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33d4220f-cc96-4de6-81f1-e188eb084cec")
+	)
+	(pad "1" thru_hole oval
+		(at 35.72 0 180)
+		(size 2.5 3.5)
+		(drill oval 1.300023 2.60002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91c56f9e-27f7-44c7-ac92-ae1a4acf245c")
+	)
+	(pad "2" thru_hole oval
+		(at -35.72 0 180)
+		(size 2.5 3.5)
+		(drill oval 1.300023 2.60002)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38bb801e-a15d-4bc9-97ca-b4b38fc1d9e3")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/BAT-TH_BH-18650-A6AJ012.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Footprints/Battery Holders/BAT-TH_BH-18650-A6AJ012.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

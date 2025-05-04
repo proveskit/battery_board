@@ -2093,6 +2093,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 50.8 121.92) (xy 55.88 121.92)
 		)
 		(stroke
@@ -2103,6 +2104,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 66.04 45.72) (xy 66.04 40.64)
 		)
 		(stroke
@@ -2153,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 106.68) (xy 50.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d054d45-fce8-41d9-a414-20c956a6b907")
+	)
+	(wire
+		(pts
 			(xy 93.98 40.64) (xy 102.87 40.64)
 		)
 		(stroke
@@ -2193,6 +2206,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 106.68) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462a1814-46ec-4862-ad7b-73fcbeccc7cd")
+	)
+	(wire
+		(pts
 			(xy 50.8 93.98) (xy 50.8 96.52)
 		)
 		(stroke
@@ -2223,6 +2246,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 36.83 111.76) (xy 36.83 113.03)
 		)
 		(stroke
@@ -2233,6 +2257,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 113.03 83.82) (xy 110.49 83.82)
 		)
 		(stroke
@@ -2240,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "528396e6-c820-4b05-8a1f-31ed576eb09a")
+	)
+	(wire
+		(pts
+			(xy 36.83 121.92) (xy 50.8 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f36cad-5a6e-48a2-98dc-3ac93060901e")
 	)
 	(wire
 		(pts
@@ -2283,6 +2319,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 36.83 96.52) (xy 50.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0533cb-1f33-4848-ac71-696cb71dd240")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 55.88 38.1) (xy 66.04 38.1)
 		)
 		(stroke
@@ -2313,6 +2362,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 36.83 121.92) (xy 50.8 121.92)
 		)
 		(stroke
@@ -2323,6 +2373,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 110.49 88.9) (xy 113.03 88.9)
 		)
 		(stroke
@@ -2413,6 +2465,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 36.83 96.52) (xy 50.8 96.52)
 		)
 		(stroke
@@ -2423,6 +2476,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 113.03 83.82) (xy 113.03 86.36)
 		)
 		(stroke
@@ -2523,6 +2578,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 120.65) (xy 36.83 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13c8c15-d16a-48ed-8cf4-fc3792d235fd")
+	)
+	(wire
+		(pts
 			(xy 97.79 83.82) (xy 93.98 83.82)
 		)
 		(stroke
@@ -2553,6 +2618,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 50.8 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c3b88f-1fa2-482b-88f6-277641cd7cb3")
+	)
+	(wire
+		(pts
+			(xy 36.83 111.76) (xy 36.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5645245-cdea-46db-9095-29354855dc65")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 113.03 91.44) (xy 113.03 88.9)
 		)
 		(stroke
@@ -2633,13 +2721,31 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 36.83 120.65) (xy 36.83 121.92)
+=======
+			(xy 36.83 111.76) (xy 50.8 111.76)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "d5c7bdb9-6672-470c-81df-9922d1e9f67c")
+=======
+		(uuid "cbd49f0b-f491-465c-a923-f4f05322b87f")
+	)
+	(wire
+		(pts
+			(xy 36.83 97.79) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfa168c-d3aa-4464-a740-7dff4e9dc66e")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -2653,6 +2759,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 36.83 106.68) (xy 50.8 106.68)
 		)
 		(stroke
@@ -2663,6 +2770,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 66.04 50.8) (xy 66.04 45.72)
 		)
 		(stroke
@@ -3260,6 +3369,76 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
+		(at 36.83 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f7b43e9-c45e-4b28-b971-5107c4b98286")
+		(property "Reference" "BT4"
+			(at 40.64 99.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 40.64 102.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery Holders:BAT-TH_BH-18650-A6AJ012"
+			(at 36.83 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 36.83 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f181742-9c82-4c9b-8073-cdbd21cb43dd")
+		)
+		(pin "2"
+			(uuid "68c5b57a-136a-431a-8d1b-9dfa733435d7")
+		)
+		(instances
+			(project "battery_pack_v1"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
 		(at 55.88 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3689,6 +3868,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:Battery_Cell")
 		(at 36.83 102.87 0)
 		(unit 1)
@@ -3759,6 +3939,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Device:R_US")
 		(at 102.87 44.45 180)
 		(unit 1)
@@ -4403,6 +4585,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:Battery_Cell")
 		(at 36.83 118.11 0)
 		(unit 1)
@@ -4473,6 +4656,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 105.41 121.92 0)
 		(unit 1)
@@ -4669,6 +4854,76 @@
 			(project "battery_board_v3c"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 36.83 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff6513d0-b6c0-4efa-b42e-5e308da6c5be")
+		(property "Reference" "BT3"
+			(at 40.64 114.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 40.64 117.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery Holders:BAT-TH_BH-18650-A6AJ012"
+			(at 36.83 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 36.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "991bddea-d06a-46f5-b6d6-85fa66208675")
+		)
+		(pin "2"
+			(uuid "0461ecff-7411-444f-8df8-3a61261c14f4")
+		)
+		(instances
+			(project "battery_pack_v1"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "BT3")
 					(unit 1)
 				)
 			)

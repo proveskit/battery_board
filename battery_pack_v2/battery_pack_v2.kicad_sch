@@ -2897,16 +2897,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 82.55) (xy 204.47 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "107bf8d7-a01e-4304-be11-822bd9f19bcc")
-	)
-	(wire
-		(pts
 			(xy 228.6 106.68) (xy 228.6 121.92)
 		)
 		(stroke
@@ -2994,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "20bd1d66-3fcb-4e7c-8b49-424d3c2b2162")
+	)
+	(wire
+		(pts
+			(xy 45.72 106.68) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c97a97-7e3c-412e-90a1-bf70fe144036")
 	)
 	(wire
 		(pts
@@ -3137,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 50.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "338b9e11-3d00-4d0b-a236-795d9166d303")
-	)
-	(wire
-		(pts
 			(xy 175.26 91.44) (xy 179.07 91.44)
 		)
 		(stroke
@@ -3157,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 120.65) (xy 50.8 120.65)
+			(xy 45.72 121.92) (xy 50.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3337,16 +3327,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 113.03) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aeb9f22-4c3f-4965-b3ee-ad8cbe081c61")
-	)
-	(wire
-		(pts
 			(xy 97.79 33.02) (xy 97.79 35.56)
 		)
 		(stroke
@@ -3437,16 +3417,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 26.67) (xy 40.64 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68411089-bf32-4eb7-a458-2c19e4cdf461")
-	)
-	(wire
-		(pts
 			(xy 186.69 81.28) (xy 199.39 81.28)
 		)
 		(stroke
@@ -3517,13 +3487,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 105.41) (xy 50.8 105.41)
+			(xy 45.72 106.68) (xy 50.8 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78b092c6-6f73-4bde-b36d-4f152ad7818b")
+	)
+	(wire
+		(pts
+			(xy 45.72 96.52) (xy 45.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0d65d0-5b8e-4a51-a65c-039246d758d7")
 	)
 	(wire
 		(pts
@@ -3547,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 97.79) (xy 50.8 97.79)
+			(xy 45.72 96.52) (xy 50.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3697,6 +3677,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 111.76) (xy 45.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967af4aa-7f7c-46dc-940e-0cb7c4d9a876")
+	)
+	(wire
+		(pts
+			(xy 40.64 26.67) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997b1ce0-22a8-4069-839c-822d11be75dc")
+	)
+	(wire
+		(pts
 			(xy 140.97 101.6) (xy 179.07 101.6)
 		)
 		(stroke
@@ -3734,16 +3734,6 @@
 			(type default)
 		)
 		(uuid "9ac47d96-3eaf-4173-b4e3-bd66c8e03348")
-	)
-	(polyline
-		(pts
-			(xy 11.43 135.89) (xy 128.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9c46b801-bb72-4073-b541-118536b599b3")
 	)
 	(wire
 		(pts
@@ -3837,16 +3827,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 97.79) (xy 50.8 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9347a8-a47d-498d-b370-99e88ce32f48")
-	)
-	(wire
-		(pts
 			(xy 114.3 91.44) (xy 116.84 91.44)
 		)
 		(stroke
@@ -3917,23 +3897,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 113.03) (xy 50.8 113.03)
+			(xy 45.72 111.76) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bea1b9e9-a321-4771-9d00-0f778792555e")
-	)
-	(wire
-		(pts
-			(xy 40.64 58.42) (xy 40.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2752f33-3bf8-4d8e-b02f-677c7376f241")
 	)
 	(wire
 		(pts
@@ -3964,16 +3934,6 @@
 			(type default)
 		)
 		(uuid "c736f0ef-9d05-4fab-b7c8-e03234e303a9")
-	)
-	(polyline
-		(pts
-			(xy 128.27 11.43) (xy 128.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "c7484317-fd7d-486e-96d2-ee3fb88b49ab")
 	)
 	(wire
 		(pts
@@ -4044,6 +4004,16 @@
 			(type default)
 		)
 		(uuid "d3644c7b-ea27-473a-821a-cf793333641c")
+	)
+	(wire
+		(pts
+			(xy 45.72 121.92) (xy 45.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c84b54-74a3-43ea-aac7-42d251bd8441")
 	)
 	(wire
 		(pts
@@ -4124,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "e6b34760-4b75-44d1-a82f-d07c08ebe038")
-	)
-	(wire
-		(pts
-			(xy 50.8 105.41) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e91481a0-9823-417a-a425-a80a7174bdcb")
 	)
 	(wire
 		(pts
@@ -5373,10 +5333,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2547f859-ab52-477f-8908-e5cacd246eb3")
 		(property "Reference" "BT1"
-			(at 59.69 114.9984 0)
+			(at 59.69 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5344,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 59.69 117.5384 0)
+			(at 59.69 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,16 +5703,15 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 35.56 118.11 0)
+		(at 45.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b411294-a111-4b67-af68-609d70036801")
 		(property "Reference" "BT3"
-			(at 39.37 114.9984 0)
+			(at 38.862 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5720,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 39.37 117.5384 0)
+			(at 31.242 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5729,7 @@
 			)
 		)
 		(property "Footprint" "Battery Holders:BAT-TH_BH-18650-A6AJ012_MODIFICATION"
-			(at 35.56 116.586 90)
+			(at 45.72 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 116.586 90)
+			(at 45.72 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5747,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 35.56 118.11 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6303,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 82.55 0)
+		(at 204.47 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6353,7 +6311,7 @@
 		(dnp no)
 		(uuid "7668c7c0-989e-47b5-bbd2-91824141ac7a")
 		(property "Reference" "#PWR08"
-			(at 204.47 86.36 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6320,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.676 79.756 0)
+			(at 203.962 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 82.55 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 82.55 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 82.55 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,16 +6719,15 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 36.83 102.87 0)
+		(at 45.72 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d6fd4d1-9eba-4c01-8fad-6f7baf860849")
 		(property "Reference" "BT4"
-			(at 40.64 99.7584 0)
+			(at 36.068 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6736,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 40.64 102.2984 0)
+			(at 28.448 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6745,7 @@
 			)
 		)
 		(property "Footprint" "Battery Holders:BAT-TH_BH-18650-A6AJ012_MODIFICATION"
-			(at 36.83 101.346 90)
+			(at 45.72 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 101.346 90)
+			(at 45.72 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6763,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 36.83 102.87 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,84 +6929,6 @@
 			(project "battery_pack_v2"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 40.64 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8706f0d-fd56-4d21-9fd4-1bbfd7a4b53d")
-		(property "Reference" "R1"
-			(at 38.9128 34.8996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.01"
-			(at 38.9128 37.211 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 41.656 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" "LR2512-23R010F4"
-			(at 38.9128 39.1414 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "95c7f4a5-1906-49cb-990e-f848ec8b0894")
-		)
-		(pin "2"
-			(uuid "2656ce3d-d13a-43f4-a665-7c3cccbb0aaf")
-		)
-		(instances
-			(project "battery_board_v3c"
-				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
-					(reference "R1")
 					(unit 1)
 				)
 			)

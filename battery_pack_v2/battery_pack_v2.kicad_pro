@@ -113,20 +113,12 @@
           "Unused Chassis Ground"
         ],
         [
-          "starved_thermal|151120097|95965999|c5e37212-34b5-4f24-9046-377dffea3d18|1fdf70b1-214d-4497-9b92-615ac5667e19|B.Cu",
-          ""
-        ],
-        [
           "track_dangling|112725000|127540000|806d6e02-3760-4aea-902e-9212c413c347|00000000-0000-0000-0000-000000000000",
           "Unused Chassis Ground"
         ],
         [
           "track_dangling|192210000|127290000|42aa821a-c22b-47ae-b170-6d5830171cea|00000000-0000-0000-0000-000000000000",
           "Unused Chassis Ground"
-        ],
-        [
-          "unconnected_items|114500000|131530000|45789a87-8dfe-446a-bc95-f66ad6dec5d7|fcd808de-2f8c-40e3-997a-222dd6a1e8f2",
-          ""
         ]
       ],
       "meta": {

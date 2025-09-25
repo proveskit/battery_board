@@ -1,11 +1,11 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-05-14T15:36:39-07:00*%
-%TF.ProjectId,battery_pack_v1a,62617474-6572-4795-9f70-61636b5f7631,rev?*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2025-09-24T18:51:33-07:00*%
+%TF.ProjectId,battery_pack_v2,62617474-6572-4795-9f70-61636b5f7632,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-05-14 15:36:39*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2025-09-24 18:51:33*
 %MOMM*%
 %LPD*%
 G01*

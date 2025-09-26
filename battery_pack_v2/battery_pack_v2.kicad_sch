@@ -5101,16 +5101,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 91.44 92.71 0)
+		(at 91.44 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c7c8e0a-beee-4500-ac7c-03b3723d94bb")
 		(property "Reference" "J1"
-			(at 92.71 81.28 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Value" "Battery Input"
-			(at 92.71 83.82 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "DF11:CONN-SMD_12P-P2.00_DF11CZ-12DP"
-			(at 91.44 92.71 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 92.71 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 92.71 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5189,7 @@
 			(uuid "a78d88c1-1e39-43c4-bf76-d85ca809ec13")
 		)
 		(instances
-			(project "battery_pack_v1"
+			(project "battery_pack_v2"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "J1")
 					(unit 1)
